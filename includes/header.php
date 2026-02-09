@@ -52,7 +52,7 @@
     </div>
 
     <!-- Mobile menu button -->
-    <button class="btn btn-outline-dark d-lg-none position-absolute" style="top: 70px; right: 16px;" type="button"
+    <button class="btn d-lg-none position-absolute" style="top: 50px; right: 5px;" type="button"
         data-bs-toggle="offcanvas" data-bs-target="#mobileMenu">
         <i class="bi bi-list fs-4"></i>
     </button>
