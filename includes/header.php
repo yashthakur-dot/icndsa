@@ -3,7 +3,7 @@
   <!-- Top Logo Row -->
   <div class="header-logos">
     <img
-      src="assets/images/logos/UP_Section logo.png"
+      src="assets/images/logos/up_section_logo.jpeg"
       alt="IEEE Logo"
       class="header-logo"
     >
