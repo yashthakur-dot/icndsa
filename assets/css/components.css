@@ -101,100 +101,35 @@
   }
 }
 
-/* ____________________________ */
-/* MENU BAR CSS */
-/* ____________________________ */
+/* ================================
+            Menu bar
+   ================================*/
 
-.ieee-menu {
-  background: #ffffff;
-  border-right: 1px solid #e5e7eb;
-  height: auto;
-  padding: 1rem 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont;
+/* Active item background */
+.list-group-item.active {
+  background-color: #003b5c !important;
+  border-color: #003b5c !important;
+  color: #ffffff !;
 }
 
-/* Main list */
-.menu-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+/* Hover state */
+.list-group-item-action:hover {
+  background-color: #f3f6f9;
 }
 
-/* Top-level links */
-.menu-link,
-.menu-toggle {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 12px 20px;
-  font-size: 15px;
-  font-weight: 500;
-  color: #1f2937;
-  background: none;
-  border: none;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-.menu-link:hover,
-.menu-toggle:hover {
-  background: #f3f6f9;
-}
-
-/* Active page */
-.menu-link.active {
-  background: #003b5c;
-  color: #ffffff;
+/* Semibold text everywhere in menu */
+.list-group-item,
+.list-group-item-action,
+.list-group-item button {
   font-weight: 600;
+  color: #1f2937;
 }
 
-/* Groups */
-.menu-group {
-  margin-top: 4px;
+/* Keep active text white */
+.list-group-item.active {
+  color: #ffffff;
 }
 
-/* Caret */
-.caret {
-  width: 6px;
-  height: 6px;
-  border-right: 2px solid #6b7280;
-  border-bottom: 2px solid #6b7280;
-  transform: rotate(45deg);
-  transition: transform 0.25s ease;
-}
-
-/* Submenu */
-.submenu {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease;
-  background: #f9fafb;
-}
-
-.submenu li a {
-  display: block;
-  padding: 10px 36px;
-  font-size: 14px;
-  color: #374151;
-  text-decoration: none;
-}
-
-.submenu li a:hover {
-  background: #e5eef5;
-}
-
-/* Open state */
-.menu-group.open .submenu {
-  max-height: 300px;
-}
-
-.menu-group.open .caret {
-  transform: rotate(-135deg);
-}
 
 /* ===============================
    IMPORTANT DATES – IEEE SIMPLE
@@ -257,107 +192,6 @@
    IEEE FOOTER
    =============================== */
 
-.ieee-footer {
-  background: #002855; /* IEEE deep blue */
-  color: #ffffff;
-  font-size: 0.95rem;
-}
-
-.ieee-footer-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 2rem;
-  padding: 2.5rem 2rem;
-}
-
-.footer-col h4 {
-  font-size: 1.1rem;
-  font-weight: 700;
-  margin-bottom: 0.75rem;
-}
-
-.footer-subtitle {
-  font-size: 0.9rem;
-  margin-bottom: 1rem;
-}
-
-.footer-col p {
-  line-height: 1.6;
-  margin-bottom: 0.8rem;
-}
-
-.footer-col a {
-  color: #66b2ff;
-  text-decoration: none;
-}
-
-.footer-col a:hover {
-  text-decoration: underline;
-}
-
-.footer-highlight {
-  font-weight: 600;
-  color: #ffffff;
-}
-
-.footer-links {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.footer-links li {
-  margin-bottom: 0.6rem;
-}
-
-.footer-links a {
-  color: #ffffff;
-}
-
-/* Map */
-.footer-map {
-  border: 1px solid rgba(255,255,255,0.3);
-  margin-bottom: 0.75rem;
-}
-
-.footer-map iframe {
-  width: 100%;
-  height: 180px;
-  border: 0;
-}
-
-/* Button */
-.footer-btn {
-  display: inline-block;
-  background: #005fb8;
-  color: #ffffff;
-  padding: 0.5rem 1rem;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-/* Bottom bar */
-.footer-bottom {
-  border-top: 1px solid rgba(255,255,255,0.3);
-  text-align: center;
-  padding: 0.75rem;
-  font-size: 0.9rem;
-}
-
-/* Spacing utility */
-.mt {
-  margin-top: 1.5rem;
-}
-
-/* Responsive */
-@media (max-width: 992px) {
-  .ieee-footer-container {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media (max-width: 576px) {
-  .ieee-footer-container {
-    grid-template-columns: 1fr;
-  }
+.bg-footer {
+  background-color: #002855 !important; /* IEEE deep blue */
 }

@@ -33,15 +33,22 @@
                 </div>
                 <div class="col-12 col-md-8">
                     <p class="mb-2">
-                        CHRIST (Deemed to be University) was born out of the educational vision of
-                        St Kuriakose Elias Chavara, an educationalist and social reformer of the
-                        nineteenth century in South India. He founded the first Catholic indigenous
-                        congregation, Carmelites of Mary Immaculate (CMI), in 1831.
-                    </p>
-                    <p class="mb-2">
-                        CHRIST was established on 15 July 1969 with the vision of
-                        <strong>Excellence and Service</strong>. It is NAAC accredited with grade ‘A’
-                        and offers UG, PG and PhD programmes across disciplines.
+                       CHRIST (Deemed to be University) was born out of the educational vision 
+                       of St Kuriakose Elias Chavara, an educationalist and social reformer of 
+                       the nineteenth century in South India. He founded the first Catholic 
+                       indigenous congregation, Carmelites of Mary Immaculate (CMI), in 1831, 
+                       which administers CHRIST (Deemed to be University). CHRIST was established 
+                       on 15 July 1969 as an affiliated college, with the Vision of 'Excellence 
+                       and Service'. It became a preferred educational institution in Bangalore, 
+                       Delhi-NCR and Lavasa within the short period of inception. One of the first 
+                       institutions in India to be accredited in 1998 by the NAAC, and subsequently 
+                       in 2004 and 2016, CHRIST (Deemed to be University) has the top grade ‘A’ in 
+                       the 4-point scale. Today, the University offers many Undergraduate, 
+                       Postgraduate and PhD Programmes in Humanities, Social Sciences, Science, 
+                       Commerce, Management, Engineering, Education, Law, and Architecture to over
+                        24000 students from all the states of India and about 60 different countries.
+                         In 2019, CHRIST (Deemed to be University) completed 50 glorious years of its 
+                         existence and sterling contribution to the cause of higher education in India.
                     </p>
                     <a href="https://ncr.christuniversity.in"
                        class="link-primary fw-semibold">
@@ -60,37 +67,37 @@
         [
             "title" => "Qutub Minar",
             "img" => "assets/images/venue-images/venue-02-qutab-minar.jpg",
-            "desc" => "Qutub Minar is a UNESCO World Heritage Site located in Delhi, India. Built in 1192, it stands 73 meters tall."
+            "desc" => "Qutub Minar is a UNESCO World Heritage Site located in Delhi, India. It is a historic minaret known for its beautiful Mughal architecture. The tower is 73 meters tall and has a rich history dating back to the 12th century. Qutub Minar is one of the most popular tourist attractions in Delhi. Qutub Minar, constructed in 1192 by Qutab-ud-din Aibak, is a towering 73-meter-high minaret built with red sandstone and marble. It is surrounded by several historically significant monuments, including the Quwwat-ul-Islam Mosque and the Iron Pillar of Delhi. Visitors can explore the intricate carvings on the minaret and enjoy panoramic views of Delhi from the top."
         ],
         [
             "title" => "India Gate",
             "img" => "assets/images/venue-images/venue-03-india-gate.png",
-            "desc" => "India Gate is a war memorial dedicated to soldiers who died in World War I."
+            "desc" => "India Gate is a war memorial and iconic landmark in Delhi, India. It is dedicated to the soldiers who died in World War I. The monument is an important site for both tourists and locals, and it is especially beautiful when illuminated at night. India Gate, originally known as the All India War Memorial, was designed by Sir Edwin Lutyens and completed in 1931. It stands at a height of 42 meters and bears the names of over 13,000 soldiers who lost their lives during World War I. Surrounding the monument is a well-maintained garden where people gather to relax and pay their respects. India Gate is particularly striking when it is illuminated in the evening."
         ],
         [
             "title" => "Humayun’s Tomb",
             "img" => "assets/images/venue-images/venue-04-tomb.jpg",
-            "desc" => "Humayun’s Tomb is a UNESCO World Heritage Site showcasing Mughal architecture."
+            "desc" => "Humayun's Tomb is another UNESCO World Heritage Site in Delhi, known for its stunning Mughal architecture. It is the tomb of the Mughal Emperor Humayun and is surrounded by beautiful gardens. The tomb's design influenced the architecture of the Taj Mahal. Humayun's Tomb, built in the mid-16th century, is a magnificent example of Mughal architecture. It combines Persian and Indian architectural styles and features a central octagonal tomb with beautiful gardens, water channels, and other structures. The tomb's grandeur and historical significance make it a must-visit attraction in Delhi."
         ],
         [
             "title" => "Red Fort (Lal Qila)",
             "img" => "assets/images/venue-images/venue-05-red-fort.webp",
-            "desc" => "The Red Fort is a historic Mughal fort constructed by Emperor Shah Jahan."
+            "desc" => "Red Fort, also known as Lal Qila, is a historic fort and UNESCO World Heritage Site in Delhi. It was the main residence of the Mughal emperors for over 200 years. The fort is an architectural marvel and an important symbol of India's history. Red Fort, constructed by Emperor Shah Jahan in the 17th century, is an impressive example of Mughal architecture. It is known for its red sandstone walls and intricate decorations. The fort includes various halls, courtyards, and pavilions, each with its own historical significance. Every year on India's Independence Day (August 15th), the Prime Minister hoists the national flag at Red Fort."
         ],
         [
             "title" => "Lotus Temple",
             "img" => "assets/images/venue-images/venue-08-lotus-temple.jpg",
-            "desc" => "The Lotus Temple is known for its lotus-shaped architecture and peaceful environment."
+            "desc" => "Lotus Temple, also known as the Bahá'í House of Worship, is renowned for its lotus-like architecture. It is a place of worship open to all religions, and its serene surroundings make it a peaceful retreat for visitors. Lotus Temple, completed in 1986, is one of the most unique architectural marvels in Delhi. Its lotus-shaped structure is made of white marble and has won numerous architectural awards. Visitors come here to meditate, pray, or simply enjoy the tranquil environment. The temple has no idols or religious symbols inside and promotes the unity of all religion."
         ],
         [
             "title" => "Akshardham Temple",
             "img" => "assets/images/venue-images/venue-09-akshardham.jpg",
-            "desc" => "Akshardham Temple showcases Indian culture, spirituality, and architecture."
+            "desc" => "Akshardham Temple is a grand Hindu temple complex with impressive architecture and exhibitions. It is dedicated to Bhagwan Swaminarayan and showcases India's rich cultural and spiritual heritage. Akshardham Temple, inaugurated in 2005, is known for its stunning architecture, intricate carvings, and spiritual ambience. The temple complex includes the main Akshardham Mandir, Yagnapurush Kund, Sahaj Anand Water Show, and a cultural boat ride. Visitors can explore the temple's exhibitions, which narrate the life and teachings of Bhagwan Swaminarayan and celebrate India's culture and heritage."
         ],
         [
             "title" => "Jama Masjid",
             "img" => "assets/images/venue-images/venue-10-jama-masjid.jpg",
-            "desc" => "Jama Masjid is one of the largest mosques in India, built by Emperor Shah Jahan."
+            "desc" => "Jama Masjid is one of the largest mosques in India. It is an architectural marvel built during the Mughal era. Visitors can climb the minaret for a panoramic view of Old Delhi. Jama Masjid, built by Emperor Shah Jahan between 1644 and 1656, is an exemplary piece of Mughal architecture. The mosque's grand courtyard can accommodate thousands of worshippers. Visitors can also climb the minaret for breathtaking views of Old Delhi. The mosque is a serene place for prayer and reflection."
         ],
     ];
 

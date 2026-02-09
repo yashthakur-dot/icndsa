@@ -2,48 +2,55 @@
   "menu": [
     {
       "title": "Home",
-      "page": "home"
+      "page": "home",
+      "icon": "house-door"
     },
     {
       "title": "Committees",
+      "icon": "people",
       "children": [
-        { "title": "Organizing Committee", "page": "organizing-committee" },
-        { "title": "International Advisory Committee", "page": "international-advisory-committee" },
-        { "title": "National Advisory Committee", "page": "national-advisory-committee" },
-        { "title": "Technical Committee", "page": "technical-committee" },
-        { "title": "Student Volunteers", "page": "student-volunteers" }
+        { "title": "Organizing Committee", "page": "organizing-committee", "icon": "diagram-3" },
+        { "title": "International Advisory Committee", "page": "international-advisory-committee", "icon": "globe" },
+        { "title": "National Advisory Committee", "page": "national-advisory-committee", "icon": "flag" },
+        { "title": "Technical Committee", "page": "technical-committee", "icon": "gear" },
+        { "title": "Student Volunteers", "page": "student-volunteers", "icon": "person-heart" }
       ]
     },
     {
       "title": "Paper Submission",
+      "icon": "file-earmark-text",
       "children": [
-        { "title": "Instructions for Author", "page": "instructions-for-authors" },
-        { "title": "Call for Papers", "page": "call-for-papers" },
-        { "title": "Submission Form", "page": "submission-form" },
-        { "title": "Important Dates", "page": "important-dates" },
-        { "title": "Registration", "page": "registration" },
-        { "title": "Publication", "page": "publication" }
+        { "title": "Instructions for Author", "page": "instructions-for-authors", "icon": "journal-text" },
+        { "title": "Call for Papers", "page": "call-for-papers", "icon": "megaphone" },
+        { "title": "Submission Form", "page": "submission-form", "icon": "upload" },
+        { "title": "Important Dates", "page": "important-dates", "icon": "calendar-event" },
+        { "title": "Registration", "page": "registration", "icon": "credit-card" },
+        { "title": "Publication", "page": "publication", "icon": "book" }
       ]
     },
     {
       "title": "Call for Papers",
+      "icon": "megaphone",
       "children": [
-        { "title": "Conference Tracks", "page": "tracks" },
-        { "title": "Submission Guidelines", "page": "guidelines" },
-        { "title": "Important Dates", "page": "important-dates" }
+        { "title": "Conference Tracks", "page": "tracks", "icon": "layers" },
+        { "title": "Submission Guidelines", "page": "guidelines", "icon": "clipboard-check" },
+        { "title": "Important Dates", "page": "important-dates", "icon": "calendar-event" }
       ]
     },
     {
       "title": "Registration",
-      "page": "registration"
+      "page": "registration",
+      "icon": "credit-card"
     },
     {
       "title": "Venue",
-      "page": "venue"
+      "page": "venue",
+      "icon": "geo-alt"
     },
     {
       "title": "Contact",
-      "page": "contact"
+      "page": "contact",
+      "icon": "envelope"
     }
   ]
 }

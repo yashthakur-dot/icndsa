@@ -13,9 +13,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST['contact_component']))
     $subject     = trim($_POST['subject']);
     $message     = trim($_POST['message']);
 
-    // 🔴 CHANGE TO YOUR EMAIL
+    // 🔴 CHANGE EMAIL IF NEEDED
     $to = "icndsa@christuniversity.in";
-
     $email_subject = "ICNDSA Contact Form: " . $subject;
 
     $email_body = "
@@ -37,131 +36,119 @@ $message
 }
 ?>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Contact Us</title>
+
 <!-- =======================
-     MOBILE-FIRST STYLES
+     BOOTSTRAP 5.3 CDN
+======================= -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- =======================
+     COMPONENT STYLES
 ======================= -->
 <style>
-/* ===== Mobile First (default) ===== */
-.icndsa-contact {
-    width: 100%;
-    padding: 20px 16px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+.contact-title {
+    color: #003b5c;
 }
 
-.icndsa-contact h2 {
-    font-size: 22px;
-    margin-bottom: 8px;
+.contact-box {
+    max-width: 900px;
 }
 
-.icndsa-contact p {
-    font-size: 14px;
-    line-height: 1.6;
-    margin-bottom: 20px;
-    color: #333;
+.form-control,
+.form-control:focus {
+    font-size: 16px; /* Prevents iOS zoom */
 }
 
-.icndsa-contact input,
-.icndsa-contact textarea {
-    width: 100%;
-    padding: 14px;
-    margin-bottom: 14px;
-    font-size: 16px; /* Prevents zoom on iOS */
-    border: 1px solid #ccc;
-    border-radius: 8px;
-}
-
-.icndsa-contact textarea {
-    min-height: 130px;
-    resize: vertical;
-}
-
-.icndsa-contact button {
-    width: 100%;
-    padding: 16px;
-    font-size: 16px;
-    border-radius: 8px;
-    border: none;
-    background-color: #3498db;
-    color: #fff;
-    cursor: pointer;
-}
-
-.icndsa-contact button:active {
-    transform: scale(0.98);
-}
-
-.icndsa-contact .success,
-.icndsa-contact .error {
-    margin-top: 16px;
-    font-size: 14px;
-}
-
-.icndsa-contact .success {
+.success-msg {
     color: #2ecc71;
 }
 
-.icndsa-contact .error {
+.error-msg {
     color: #e74c3c;
 }
-
-/* ===== Tablets (≥ 600px) ===== */
-@media (min-width: 600px) {
-    .icndsa-contact {
-        max-width: 700px;
-        margin: 40px auto;
-        padding: 30px;
-    }
-
-    .icndsa-contact h2 {
-        font-size: 26px;
-    }
-
-    .icndsa-contact p {
-        font-size: 15px;
-    }
-}
-
-/* ===== Desktop (≥ 992px) ===== */
-@media (min-width: 992px) {
-    .icndsa-contact {
-        max-width: 900px;
-        padding: 40px;
-    }
-
-    .icndsa-contact h2 {
-        font-size: 28px;
-    }
-}
 </style>
+</head>
 
-<!-- =======================
-     COMPONENT MARKUP
-======================= -->
-<div class="icndsa-contact">
-    <h2>Contact Us</h2>
-    <p>
-        Thank you for your interest in the ICNDSA conference.
-        You should receive a response within 48 hours.
-        For any query please contact
-        <strong>icndsa@christuniversity.in</strong>.
-    </p>
+<body>
 
-    <form method="POST">
-        <input type="hidden" name="contact_component" value="1">
+<section class="container my-4">
 
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <input type="text" name="country" placeholder="Your Country">
-        <input type="text" name="affiliation" placeholder="Your Affiliation">
-        <input type="text" name="subject" placeholder="Subject" required>
-        <textarea name="message" placeholder="Your Message" required></textarea>
+    <div class="contact-box mx-auto p-3 p-md-4">
 
-        <button type="submit">Submit Form</button>
-    </form>
+        <h2 class="contact-title fw-bold mb-2">Contact Us</h2>
 
-    <?php if ($status === "success"): ?>
-        <div class="success">Thank you! Your message has been sent.</div>
-    <?php elseif ($status === "error"): ?>
-        <div class="error">Something went wrong. Please try again.</div>
-    <?php endif; ?>
-</div>
+        <p class="text-secondary small mb-4">
+            Thank you for your interest in the ICNDSA conference.
+            You should receive a response within 48 hours.
+            For any query please contact
+            <strong>icndsa@christuniversity.in</strong>.
+        </p>
+
+        <!-- =======================
+             CONTACT FORM
+        ======================= -->
+        <form method="POST" class="row g-3">
+            <input type="hidden" name="contact_component" value="1">
+
+            <div class="col-12">
+                <input type="text" name="name" class="form-control"
+                       placeholder="Your Name" required>
+            </div>
+
+            <div class="col-12">
+                <input type="email" name="email" class="form-control"
+                       placeholder="Your Email" required>
+            </div>
+
+            <div class="col-12">
+                <input type="text" name="country" class="form-control"
+                       placeholder="Your Country">
+            </div>
+
+            <div class="col-12">
+                <input type="text" name="affiliation" class="form-control"
+                       placeholder="Your Affiliation">
+            </div>
+
+            <div class="col-12">
+                <input type="text" name="subject" class="form-control"
+                       placeholder="Subject" required>
+            </div>
+
+            <div class="col-12">
+                <textarea name="message" rows="5" class="form-control"
+                          placeholder="Your Message" required></textarea>
+            </div>
+
+            <div class="col-12">
+                <button type="submit"
+                        class="btn btn-primary w-100 py-2">
+                    Submit Form
+                </button>
+            </div>
+        </form>
+
+        <!-- =======================
+             STATUS MESSAGE
+        ======================= -->
+        <?php if ($status === "success"): ?>
+            <div class="alert alert-success mt-3 py-2">
+                Thank you! Your message has been sent.
+            </div>
+        <?php elseif ($status === "error"): ?>
+            <div class="alert alert-danger mt-3 py-2">
+                Something went wrong. Please try again.
+            </div>
+        <?php endif; ?>
+
+    </div>
+
+</section>
+
+</body>
+</html>
