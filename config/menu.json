@@ -38,6 +38,10 @@
       "page": "registration"
     },
     {
+      "title": "Venue",
+      "page": "venue"
+    },
+    {
       "title": "Contact",
       "page": "contact"
     }
