@@ -1,109 +1,93 @@
 <style>
-/* ===============================
-   IMPORTANT DATES – IEEE TIMELINE
-   =============================== */
-
-.dates-page {
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-.dates-page h1 {
-  font-size: 1.8rem;
-  font-weight: 700;
-  color: #003b5c; /* IEEE blue */
-  margin-bottom: 0.5rem;
-}
-
-.dates-page hr {
-  border: none;
-  border-bottom: 2px solid #1a73e8;
-  margin-bottom: 2rem;
-}
-
-/* Timeline container */
-.timeline {
-  position: relative;
-  margin-left: 20px;
-  padding-left: 30px;
-  border-left: 3px solid #dbeafe; /* light IEEE blue */
-}
-
-/* Timeline item */
-.timeline-item {
-  position: relative;
-  padding: 0 0 1.8rem 0;
+/* Vertical line */
+.timeline-line {
+  position: absolute;
+  left: 10px;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background-color: #dbeafe; /* light IEEE blue */
 }
 
 /* Dot */
-.timeline-item::before {
-  content: "";
-  position: absolute;
-  left: -41px;
-  top: 4px;
+.timeline-dot {
   width: 14px;
   height: 14px;
-  background: #1a73e8;
+  background-color: #1a73e8; /* Bootstrap primary */
   border-radius: 50%;
+  margin-top: 4px;
+  flex-shrink: 0;
 }
 
-/* Title */
-.timeline-title {
-  font-size: 1rem;
-  font-weight: 600;
-  color: #1f2937;
-  margin-bottom: 0.2rem;
+/* Blinking highlight dot (conference dates) */
+.blink-dot {
+  background-color: #dc3545;
+  animation: blink 1.2s infinite;
 }
 
-/* Date */
-.timeline-date {
-  font-size: 0.95rem;
-  font-weight: 600;
-  color: #003b5c;
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
 }
-
-/* Highlight conference dates */
-.timeline-item.highlight .timeline-date {
-  color: #b91c1c; /* academic red */
-}
-
 </style>
+<section class="container my-5" style="max-width: 900px;">
 
-<section class="dates-page">
+  <h1 class="fw-bold text-primary mb-1">Important Dates</h1>
+  <hr class="border-primary border-2 mb-4">
 
-  <h1>Important Dates</h1>
-  <hr>
+  <div class="position-relative ps-4">
 
-  <div class="timeline">
+    <!-- Vertical line -->
+    <div class="timeline-line"></div>
 
-    <div class="timeline-item">
-      <div class="timeline-title">Call for Paper</div>
-      <div class="timeline-date">5 July, 2025</div>
+    <!-- Item -->
+    <div class="d-flex gap-3 mb-4 timeline-item">
+      <span class="timeline-dot"></span>
+      <div>
+        <div class="fw-semibold">Call for Paper</div>
+        <div class="text-primary fw-semibold">5 July, 2025</div>
+      </div>
     </div>
 
-    <div class="timeline-item">
-      <div class="timeline-title">Paper Submission Deadline</div>
-      <div class="timeline-date">31 Jan, 2026</div>
+    <div class="d-flex gap-3 mb-4 timeline-item">
+      <span class="timeline-dot"></span>
+      <div>
+        <div class="fw-semibold">Paper Submission Deadline</div>
+        <div class="text-primary fw-semibold">31 Jan, 2026</div>
+      </div>
     </div>
 
-    <div class="timeline-item">
-      <div class="timeline-title">Acceptance Notification</div>
-      <div class="timeline-date">28 Feb, 2026</div>
+    <div class="d-flex gap-3 mb-4 timeline-item">
+      <span class="timeline-dot"></span>
+      <div>
+        <div class="fw-semibold">Acceptance Notification</div>
+        <div class="text-primary fw-semibold">28 Feb, 2026</div>
+      </div>
     </div>
 
-    <div class="timeline-item">
-      <div class="timeline-title">Camera Ready Submission</div>
-      <div class="timeline-date">15 Mar, 2026</div>
+    <div class="d-flex gap-3 mb-4 timeline-item">
+      <span class="timeline-dot"></span>
+      <div>
+        <div class="fw-semibold">Camera Ready Submission</div>
+        <div class="text-primary fw-semibold">15 Mar, 2026</div>
+      </div>
     </div>
 
-    <div class="timeline-item">
-      <div class="timeline-title">Registration Deadline</div>
-      <div class="timeline-date">15 Mar, 2026</div>
+    <div class="d-flex gap-3 mb-4 timeline-item">
+      <span class="timeline-dot"></span>
+      <div>
+        <div class="fw-semibold">Registration Deadline</div>
+        <div class="text-primary fw-semibold">15 Mar, 2026</div>
+      </div>
     </div>
 
-    <div class="timeline-item highlight">
-      <div class="timeline-title">Conference Dates</div>
-      <div class="timeline-date">10 – 11 Apr, 2026</div>
+    <!-- Highlighted -->
+    <div class="d-flex gap-3 mb-2 timeline-item">
+      <span class="timeline-dot blink-dot"></span>
+      <div>
+        <div class="fw-bold">Conference Dates</div>
+        <div class="fw-bold text-danger">10 – 11 Apr, 2026</div>
+      </div>
     </div>
 
   </div>

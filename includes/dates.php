@@ -1,37 +1,47 @@
-<div class="ieee-dates">
+<div class="card shadow-sm">
+  <div class="card-body p-3">
 
-  <h3 class="ieee-dates-title">Important Dates</h3>
+    <h5 class="fw-bold blink border-bottom pb-2 mb-3">
+      Important Dates
+    </h5>
 
-  <ul class="ieee-dates-list">
-    <li>
-      <span class="label">Call for Paper</span>
-      <span class="value">5 July, 2025</span>
-    </li>
+    <ul class="list-group list-group-flush small">
 
-    <li>
-      <span class="label">Paper Submission Deadline</span>
-      <span class="value">31 Jan, 2026</span>
-    </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+        <span>Call for Paper</span>
+        <span class="fw-semibold text-primary">5 July, 2025</span>
+      </li>
 
-    <li>
-      <span class="label">Acceptance Notification</span>
-      <span class="value">28 Feb, 2026</span>
-    </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+        <span>Paper Submission Deadline</span>
+        <span class="fw-semibold text-primary">31 Jan, 2026</span>
+      </li>
 
-    <li>
-      <span class="label">Camera Ready Submission</span>
-      <span class="value">15 Mar, 2026</span>
-    </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+        <span>Acceptance Notification</span>
+        <span class="fw-semibold text-primary">28 Feb, 2026</span>
+      </li>
 
-    <li>
-      <span class="label">Registration Deadline</span>
-      <span class="value">15 Mar, 2026</span>
-    </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+        <span>Camera Ready Submission</span>
+        <span class="fw-semibold text-primary">15 Mar, 2026</span>
+      </li>
 
-    <li class="highlight">
-      <span class="label">Conference Dates</span>
-      <span class="value">10 – 11 Apr, 2026</span>
-    </li>
-  </ul>
+      <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+        <span>Registration Deadline</span>
+        <span class="fw-semibold text-primary">15 Mar, 2026</span>
+      </li>
 
+      <!-- Highlighted -->
+      <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+        <span class="fw-semibold d-flex align-items-center gap-2">
+          <span class="blink-dot"></span>
+          Conference Dates
+        </span>
+        <span class="fw-bold text-danger">10 – 11 Apr, 2026</span>
+      </li>
+
+    </ul>
+
+  </div>
 </div>

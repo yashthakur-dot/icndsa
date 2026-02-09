@@ -39,13 +39,12 @@
    SCROLLABLE COLUMNS
    =============================== */
 
+/* Mobile default */
 .sidebar,
 .content,
 .dates {
-  height: 100%;
-  overflow-y: auto;
-  scrollbar-width: thin;
-  scrollbar-color: #b0c4de transparent;
+  height: auto;
+  overflow: visible;
 }
 
 /* ===============================
@@ -61,4 +60,11 @@
   background: #ffffff;
   padding: 2rem;
   overflow-x: hidden;
+}
+
+@media (max-width: 991px) {
+  .sidebar,
+  .dates {
+    display: none;
+  }
 }

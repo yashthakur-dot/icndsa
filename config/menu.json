@@ -33,8 +33,7 @@
       "icon": "megaphone",
       "children": [
         { "title": "Conference Tracks", "page": "tracks", "icon": "layers" },
-        { "title": "Submission Guidelines", "page": "guidelines", "icon": "clipboard-check" },
-        { "title": "Important Dates", "page": "important-dates", "icon": "calendar-event" }
+        { "title": "Submission Guidelines", "page": "guidelines", "icon": "clipboard-check" }
       ]
     },
     {

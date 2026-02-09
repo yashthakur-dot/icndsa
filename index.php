@@ -7,46 +7,73 @@ if (!file_exists($file)) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>IEEE ICNDSA 2026</title>
 
-  <link rel="stylesheet" href="assets/css/base.css">
-  <link rel="stylesheet" href="assets/css/pages.css">
-  <link rel="stylesheet" href="assets/css/layout.css">
-  <link rel="stylesheet" href="assets/css/components.css">
-  <link rel="stylesheet" href="assets/css/responsive.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IEEE ICNDSA 2026</title>
+
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/pages.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
 </head>
 
 <body>
 
-<div class="page-wrapper">
+    <div class="page-wrapper">
 
-  <?php include 'includes/header.php'; ?>
+        <?php include 'includes/header.php'; ?>
 
-  <div class="app-layout">
-    <aside class="sidebar">
-      <?php include 'includes/menu.php'; ?>
-    </aside>
+        <div>
+            <?php include 'includes/news-tickers.php'; ?>
+        </div>
 
-    <main class="content">
-      <?php include $file; ?>
-    </main>
+        <!-- ===============================
+     MOBILE OFFCANVAS MENU
+=============================== -->
+        <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="mobileMenu"
+            aria-labelledby="mobileMenuLabel">
 
-    <aside class="dates">
-      <?php include 'includes/dates.php'; ?>
-    </aside>
-  </div>
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="mobileMenuLabel">
+                    Menu
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
 
-  <?php include 'includes/footer.php'; ?>
+            <div class="offcanvas-body p-0">
+                <?php include 'includes/menu.php'; ?>
+            </div>
+        </div>
 
-</div>
+        <div class="app-layout">
+            <aside class="sidebar">
+                <?php include 'includes/menu.php'; ?>
+            </aside>
 
-<script src="assets/js/app.js"></script>
+            <main class="content">
+                <?php include $file; ?>
+            </main>
+
+            <aside class="dates">
+                <?php include 'includes/dates.php'; ?>
+            </aside>
+        </div>
+
+        <?php include 'includes/footer.php'; ?>
+
+    </div>
+
+    <script src="assets/js/app.js"></script>
 </body>
+
 </html>
