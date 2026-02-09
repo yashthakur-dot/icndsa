@@ -48,7 +48,7 @@
       <h4>Paper Submission</h4>
 
       <ul class="footer-links">
-        <li><a href="index.php?page=guidelines">Instructions for Authors</a></li>
+        <li><a href="index.php?page=instructions-for-authors">Instructions for Authors</a></li>
         <li><a href="index.php?page=call-for-paper">Call for Paper</a></li>
         <li><a href="index.php?page=submission">Submission Form</a></li>
         <li><a href="index.php?page=important-dates">Important Dates</a></li>

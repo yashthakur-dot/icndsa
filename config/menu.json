@@ -15,6 +15,17 @@
       ]
     },
     {
+      "title": "Paper Submission",
+      "children": [
+        { "title": "Instructions for Author", "page": "instructions-for-authors" },
+        { "title": "Call for Papers", "page": "call-for-papers" },
+        { "title": "Submission Form", "page": "submission-form" },
+        { "title": "Important Dates", "page": "important-dates" },
+        { "title": "Registration", "page": "registration" },
+        { "title": "Publication", "page": "publication" }
+      ]
+    },
+    {
       "title": "Call for Papers",
       "children": [
         { "title": "Conference Tracks", "page": "tracks" },
