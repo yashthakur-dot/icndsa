@@ -1,0 +1,34 @@
+{
+  "menu": [
+    {
+      "title": "Home",
+      "page": "home"
+    },
+    {
+      "title": "Committees",
+      "children": [
+        { "title": "Organizing Committee", "page": "organizing-committee" },
+        { "title": "International Advisory Committee", "page": "international-advisory-committee" },
+        { "title": "National Advisory Committee", "page": "national-advisory-committee" },
+        { "title": "Technical Committee", "page": "technical-committee" },
+        { "title": "Student Volunteers", "page": "student-volunteers" }
+      ]
+    },
+    {
+      "title": "Call for Papers",
+      "children": [
+        { "title": "Conference Tracks", "page": "tracks" },
+        { "title": "Submission Guidelines", "page": "guidelines" },
+        { "title": "Important Dates", "page": "important-dates" }
+      ]
+    },
+    {
+      "title": "Registration",
+      "page": "registration"
+    },
+    {
+      "title": "Contact",
+      "page": "contact"
+    }
+  ]
+}

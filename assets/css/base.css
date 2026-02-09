@@ -1,0 +1,28 @@
+:root {
+  --primary: #006699;
+  --bg-light: #f5f7fa;
+  --header-height: 280px;
+}
+
+html{
+    height: 100%;
+    margin: 0;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont;
+  background: var(--bg-light);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.content {
+  overflow-x: hidden;
+}

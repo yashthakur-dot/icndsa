@@ -1,0 +1,64 @@
+/* ===============================
+   PAGE WRAPPER
+   =============================== */
+
+.page-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header & footer take natural height */
+.ieee-header,
+.ieee-footer {
+  flex-shrink: 0;
+}
+
+/* ===============================
+   MAIN LAYOUT
+   =============================== */
+
+.app-layout {
+  flex: 1;                 /* fills remaining height */
+  display: grid;
+  grid-template-columns: 1fr; /* mobile first */
+  overflow: hidden;        /* prevents page scroll */
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+  .app-layout {
+    grid-template-columns:
+      320px                /* LEFT MENU */
+      minmax(0, 1fr)       /* CENTER */
+      360px;               /* RIGHT DATES */
+  }
+}
+
+/* ===============================
+   SCROLLABLE COLUMNS
+   =============================== */
+
+.sidebar,
+.content,
+.dates {
+  height: 100%;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #b0c4de transparent;
+}
+
+/* ===============================
+   BACKGROUNDS
+   =============================== */
+
+.sidebar,
+.dates {
+  background: #f8f9fa;
+}
+
+.content {
+  background: #ffffff;
+  padding: 2rem;
+  overflow-x: hidden;
+}

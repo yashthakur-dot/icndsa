@@ -1,0 +1,36 @@
+/* ===============================
+   HOME PAGE CONTENT
+   =============================== */
+
+.home-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.home-section {
+  margin-bottom: 3rem;
+}
+
+.section-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #003b5c; /* IEEE blue */
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 48px;
+  height: 3px;
+  background: #006699;
+  margin-top: 6px;
+}
+
+.home-section p {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: #1f2937;
+  margin-bottom: 1rem;
+}

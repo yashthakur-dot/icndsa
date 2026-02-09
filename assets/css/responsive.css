@@ -1,0 +1,11 @@
+@media (max-width: 991px) {
+  .sidebar {
+    display: none; /* off-canvas later */
+  }
+
+  .dates {
+    order: 3;
+    padding: 1rem;
+  }
+}
+
