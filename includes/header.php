@@ -5,7 +5,7 @@
         <div class="row align-items-center py-1 header-logos">
 
             <div class="col-6 d-flex align-items-center">
-                <img src="assets/images/logos/up_section_logo.pnggit" alt="IEEE Logo" class="header-logo ieee-logo">
+                <img src="assets/images/logos/up_section_logo.png" alt="IEEE Logo" class="header-logo ieee-logo">
             </div>
 
             <div class="col-6 d-flex justify-content-end align-items-center">
