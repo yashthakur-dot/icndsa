@@ -63,8 +63,7 @@
 }
 
 @media (max-width: 991px) {
-  .sidebar,
-  .dates {
+  .sidebar {
     display: none;
   }
 }
