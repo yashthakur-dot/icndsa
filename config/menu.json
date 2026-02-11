@@ -23,7 +23,6 @@
         { "title": "Instructions for Author", "page": "instructions-for-authors", "icon": "journal-text" },
         { "title": "Call for Papers", "page": "call-for-papers", "icon": "megaphone" },
         { "title": "Submission Form", "page": "submission-form", "icon": "upload" },
-        { "title": "Important Dates", "page": "important-dates", "icon": "calendar-event" },
         { "title": "Registration", "page": "registration", "icon": "credit-card" },
         { "title": "Publication", "page": "publication", "icon": "book" }
       ]
