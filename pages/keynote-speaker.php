@@ -74,7 +74,7 @@ $data = json_decode($json, true);
 
 <div class="container speaker-section">
 
-  <h2 class="mb-5 fw-bold text-ieee">Keynote Speakers</h2>
+  <h2 class="mb-5 fw-bold text-ieee">Guest Speaker/ Keynote</h2>
 
   <?php foreach ($data['speakers'] as $speaker): ?>
 
