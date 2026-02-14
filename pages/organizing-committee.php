@@ -18,13 +18,14 @@ $data = json_decode($json, true);
   color: #003b5c;
   margin-bottom: 1.5rem;
   border-left: 5px solid #1a73e8;
-  padding-left: 12px;
+  background-color: #9bbbff44;
+  padding: 5px 6px;
 }
 
 .subcommittee-title {
   font-size: 1.2rem;
   font-weight: 600;
-  color: #1a73e8;
+  color: #111827;
   margin: 2rem 0 1rem;
   border-bottom: 1px solid #e5eaf0;
   padding-bottom: 6px;
@@ -36,13 +37,21 @@ $data = json_decode($json, true);
   padding: 1.5rem 1rem;
   text-align: center;
   height: 100%;
-  transition: 0.2s ease;
-  background: #fff;
+  transition: 0.25s ease;
+
+  /* Professional subtle gradient */
+  background: linear-gradient(
+    135deg,
+    #eef6fc 0%,      /* very light blue (top-left) */
+    #ffffff 50%,     /* white center */
+    #f0f7ff 100%     /* very soft blue (bottom-right) */
+  );
 }
 
 .member-card:hover {
-  border-color: #1a73e8;
+  border-color: #cddff0;
   transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(26, 115, 232, 0.08);
 }
 
 .member-img {
@@ -62,7 +71,8 @@ $data = json_decode($json, true);
 
 .member-designation {
   font-size: 0.85rem;
-  color: #1a73e8;
+  color: #4462a1;
+  font-weight: 500;
   margin-bottom: 0.3rem;
 }
 

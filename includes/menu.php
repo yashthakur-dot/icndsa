@@ -20,7 +20,7 @@ $currentPage = $_GET['page'] ?? 'home';
                     class="list-group-item list-group-item-action d-flex justify-content-between align-items-center <?= $isOpen ? 'active' : '' ?>"
                     data-bs-toggle="collapse" data-bs-target="#submenu-<?= $index ?>"
                     aria-expanded="<?= $isOpen ? 'true' : 'false' ?>">
-                    <span class="d-flex align-items-center gap-2 py-2">
+                    <span class="d-flex align-items-center gap-2 py-1">
                         <?php if (!empty($item['icon'])): ?>
                             <i class="bi bi-<?= $item['icon'] ?>"></i>
                         <?php endif; ?>
@@ -46,7 +46,7 @@ $currentPage = $_GET['page'] ?? 'home';
                 <!-- Single item -->
                 <a href="index.php?page=<?= $item['page'] ?>"
                     class="list-group-item list-group-item-action <?= $currentPage === $item['page'] ? 'active' : '' ?>">
-                    <span class="d-flex align-items-center gap-2 py-2">
+                    <span class="d-flex align-items-center gap-2 py-1">
                         <?php if (!empty($item['icon'])): ?>
                             <i class="bi bi-<?= $item['icon'] ?>"></i>
                         <?php endif; ?>
