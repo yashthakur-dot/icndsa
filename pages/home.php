@@ -1,7 +1,11 @@
 <section class="home-content">
 
+  <div class="home-banner-wrapper mb-2">
+    <img src="assets/images/christ-logo-2.png" alt="Conference Banner" class="home-banner">
+  </div>
+
   <!-- About University -->
-  <section class="home-section">
+  <section class="home-section text-justify">
     <h2 class="section-title">About University</h2>
 
     <p>
@@ -37,7 +41,7 @@
   </section>
 
   <!-- About Department -->
-  <section class="home-section">
+  <section class="home-section text-justify">
     <h2 class="section-title">About Department of Computer Science</h2>
 
     <p>
@@ -58,7 +62,7 @@
   </section>
 
   <!-- About Conference -->
-  <section class="home-section">
+  <section class="home-section text-justify">
     <h2 class="section-title">About Conference</h2>
 
     <p>

@@ -6,7 +6,7 @@
 $newsItems = [
     "Accepted papers will be submitted for inclusion into IEEE Xplore subject to meeting IEEE Xplore’s scope and quality requirements.",
     "Early bird registration closes on 10 March 2026.",
-    "Conference will be held at CHRIST (Deemed to be University), Delhi NCR."
+    "Conference will be held at CHRIST (Deemed to be University), Delhi NCR Campus, India."
 ];
 ?>
 

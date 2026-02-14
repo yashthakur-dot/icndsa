@@ -58,7 +58,7 @@
 }
 </style>
 
-<section class="submission-page">
+<section class="submission-page text-justify">
 
   <h1>Submission Guidelines</h1>
   <hr>

@@ -1,0 +1,273 @@
+{
+  "committee": [
+    {
+      "id": "chief-patron",
+      "title": "Chief Patron",
+      "slug": "chief-patron",
+      "members": [
+        {
+          "name": "Fr Joseph CC",
+          "designation": "Vice Chancellor",
+          "affiliation": "CHRIST (Deemed to be University), Bengaluru, Karnataka, India",
+          "image": "assets/images/organizing-committee/chief.png"
+        }
+      ]
+    },
+    {
+      "id": "patrons",
+      "title": "Patrons",
+      "slug": "patrons",
+      "members": [
+        {
+          "name": "Fr Viju P D",
+          "designation": "Pro-Vice Chancellor",
+          "affiliation": "CHRIST (Deemed to be University), Bengaluru, Karnataka, India",
+          "image": "assets/images/organizing-committee/patron-1.png"
+        },
+        {
+          "name": "Anil Joseph Pinto",
+          "designation": "Registrar",
+          "affiliation": "CHRIST (Deemed to be University), Bengaluru, Karnataka, India",
+          "image": "assets/images/organizing-committee/patron-2.png"
+        },
+        {
+          "name": "Fr Vinod Michael",
+          "designation": "Campus Director",
+          "affiliation": "CHRIST (Deemed to be University), Delhi NCR Campus",
+          "image": "assets/images/organizing-committee/patron-4.jpg"
+        },
+        {
+          "name": "Fr Peter M V",
+          "designation": "Campus Administrator & Director Student Affairs",
+          "affiliation": "CHRIST (Deemed to be University), Delhi NCR Campus",
+          "image": "assets/images/organizing-committee/patron-3.jpg"
+        }
+      ]
+    },
+    {
+      "id": "general-chair",
+      "title": "General Chair",
+      "slug": "general-chair",
+      "members": [
+        {
+          "name": "Fr Jossy George",
+          "designation": "Director",
+          "affiliation": "CHRIST (Deemed to be University), Bannerghatta Campus, Bengaluru, Karnataka, India",
+          "image": "assets/images/organizing-committee/general-chair.jpg"
+        },
+        {
+          "name": "Jeanne Poulose",
+          "designation": "Dean",
+          "affiliation": "CHRIST (Deemed to be University), Delhi NCR Campus, Ghaziabad, Uttar Pradesh, India",
+          "image": "assets/images/organizing-committee/general-chair-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "conference-chair",
+      "title": "Conference Chair",
+      "slug": "conference-chair",
+      "members": [
+        {
+          "name": "Bosco Paul Alapatt",
+          "designation": "Associate Dean",
+          "affiliation": "CHRIST (Deemed to be University), Delhi NCR Campus, Ghaziabad, Uttar Pradesh, India",
+          "image": "assets/images/organizing-committee/conference-chair.jpg"
+        }
+      ]
+    },
+    {
+      "id": "organizing-chair",
+      "title": "Organizing Chair",
+      "slug": "organizing-chair",
+      "members": [
+        {
+          "name": "Ramesh Chandra Ponia",
+          "designation": "",
+          "affiliation": "CHRIST (Deemed to be University), Delhi NCR",
+          "image": "assets/images/organizing-committee/organizing-chair-1.jpg"
+        },
+        {
+          "name": "Vandana Sharma",
+          "designation": "",
+          "affiliation": "CHRIST (Deemed to be University), Delhi NCR",
+          "image": "assets/images/organizing-committee/organizing-chair-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "organizing-coordinator",
+      "title": "Organizing Coordinator / Convener",
+      "slug": "organizing-coordinator",
+      "members": [
+        {
+          "name": "Manjula Shanbhog",
+          "designation": "",
+          "affiliation": "CHRIST (Deemed to be University), Delhi NCR Campus",
+          "image": "assets/images/organizing-committee/organizing-coordinator-manjula.jpg"
+        },
+        {
+          "name": "Kamal Upreti",
+          "designation": "",
+          "affiliation": "CHRIST (Deemed to be University), Delhi NCR Campus",
+          "image": "assets/images/organizing-committee/organizing-coordinator-kamal.jpg"
+        }
+      ]
+    },
+    {
+      "id": "organizing-committee",
+      "title": "Organizing Committee",
+      "slug": "organizing-committee",
+      "sections": [
+        {
+          "title": "Finance Committee",
+          "members": [
+            {
+              "name": "Shilpa Srivastava",
+              "designation": "Associate Professor",
+              "affiliation": "CHRIST (Deemed to be University), Delhi NCR Campus",
+              "image": "assets/images/organizing-committee/committee-members/shilpa.jpg"
+            },
+            {
+              "name": "Jaspreet Singh",
+              "designation": "Professor",
+              "affiliation": "CHRIST (Deemed to be University), Delhi NCR Campus",
+              "image": "assets/images/organizing-committee/committee-members/jaspreet.jpg"
+            },
+            {
+              "name": "Vandna Kansal",
+              "designation": "Research Scholar",
+              "affiliation": "CHRIST (Deemed to be University), Delhi NCR Campus",
+              "image": "assets/images/organizing-committee/committee-members/vandna_kansal.jpeg"
+            },
+            {
+              "name": "Milan",
+              "designation": "",
+              "affiliation": "CHRIST (Deemed to be University), Delhi NCR Campus",
+              "image": "assets/images/organizing-committee/default.png"
+            }
+          ]
+        },
+
+        {
+          "title": "Conference Proceedings",
+          "members": [
+            {
+              "name": "Ramesh Chandra Poonia",
+              "designation": "Professor",
+              "affiliation": "CHRIST (Deemed to be University), Delhi NCR Campus",
+              "image": "assets/images/organizing-committee/organizing-chair-1.jpg"
+            },
+            {
+              "name": "Kamal Upreti",
+              "designation": "Associate Professor",
+              "affiliation": "CHRIST (Deemed to be University), Delhi NCR Campus",
+              "image": "assets/images/organizing-committee/organizing-coordinator-kamal.jpg"
+            },
+            {
+              "name": "Manjula Shanbhog",
+              "designation": "Associate Professor",
+              "affiliation": "CHRIST (Deemed to be University), Delhi NCR Campus",
+              "image": "assets/images/organizing-committee/organizing-coordinator-manjula.jpg"
+            }
+          ]
+        },
+
+        {
+          "title": "Publicity Committee",
+          "members": [
+            {
+              "name": "Vandana Mehndiratta",
+              "designation": "Assistant Professor",
+              "affiliation": "CHRIST (Deemed to be University), Delhi NCR Campus",
+              "image": "assets/images/organizing-committee/committee-members/vandana.jpg"
+            }
+          ]
+        },
+
+        {
+          "title": "Hospitality Committee",
+          "members": [
+            {
+              "name": "Garima Anand",
+              "designation": "Assistant Professor",
+              "affiliation": "CHRIST (Deemed to be University), Delhi NCR Campus",
+              "image": "assets/images/organizing-committee/committee-members/garima.jpg"
+            },
+            {
+              "name": "Yash Thakur",
+              "designation": "Lab Instructor",
+              "affiliation": "CHRIST (Deemed to be University), Delhi NCR Campus",
+              "image": "assets/images/organizing-committee/committee-members/yash_thakur.jpg"
+            }
+          ]
+        },
+
+        {
+          "title": "IT Support Committee",
+          "members": [
+            {
+              "name": "Vidushi",
+              "designation": "Assistant Professor",
+              "affiliation": "CHRIST (Deemed to be University), Delhi NCR Campus",
+              "image": "assets/images/organizing-committee/committee-members/vidushi.jpg"
+            },
+            {
+              "name": "Gokul G",
+              "designation": "IT Services",
+              "affiliation": "CHRIST (Deemed to be University), Delhi NCR Campus",
+              "image": "assets/images/organizing-committee/gokul-it.jpg"
+            }
+          ]
+        },
+
+        {
+          "title": "Registration and Attendee Committee",
+          "members": [
+            {
+              "name": "Indu Verma",
+              "designation": "Assistant Professor",
+              "affiliation": "CHRIST (Deemed to be University), Delhi NCR Campus",
+              "image": "assets/images/organizing-committee/committee-members/indu.jpg"
+            },
+            {
+              "name": "Seema",
+              "designation": "Research Scholar",
+              "affiliation": "CHRIST (Deemed to be University), Delhi NCR Campus",
+              "image": "assets/images/organizing-committee/committee-members/seema.jpeg"
+            },
+            {
+              "name": "Rishabh",
+              "designation": "Lab Instructor",
+              "affiliation": "CHRIST (Deemed to be University), Delhi NCR Campus",
+              "image": "assets/images/organizing-committee/committee-members/rishabh.jpeg"
+            },
+            {
+              "name": "Abhilasha",
+              "designation": "Research Scholar",
+              "affiliation": "CHRIST (Deemed to be University), Delhi NCR Campus",
+              "image": "assets/images/organizing-committee/committee-members/abhilasha.jpeg"
+            },
+            {
+              "name": "Milan",
+              "designation": "",
+              "affiliation": "CHRIST (Deemed to be University), Delhi NCR Campus"
+            }
+          ]
+        },
+
+        {
+          "title": "Website Committee",
+          "members": [
+            {
+              "name": "Sumin Sybol",
+              "designation": "Assistant Professor",
+              "affiliation": "CHRIST (Deemed to be University), Delhi NCR Campus",
+              "image": "assets/images/organizing-committee/committee-members/sumin.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

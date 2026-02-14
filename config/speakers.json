@@ -1,0 +1,22 @@
+{
+  "speakers": [
+    {
+      "id": 1,
+      "name": "Dr Ermeey Abd Kadir",
+      "designation": "Rector, UiTM Terengganu Branch, Malaysia",
+      "expertise": "Electrical Engineering",
+      "title": "AI-Native 6G Rectennas: Scaling Efficiency for the Trillion-Device IoT Era",
+      "image": "assets/images/keynote/DR_ERMEEY.png",
+      "profile": "Dr. Ermeey Abd Kadir is a distinguished Senior Lecturer at UiTM Cawangan Terengganu, Malaysia. He is a Professional Technologist (Ts.) recognized by the Malaysia Board of Technologists (MBOT). With a PhD focused on Energy and Power Electronics, his research expertise encompasses Renewable Energy, RF Energy Harvesting, Smart Grids, and Engineering Education. Dr. Ermeey has an extensive global research footprint with over 22 indexed publications in Scopus and Web of Science. His academic contributions have earned him prestigious accolades, including the Editor’s Choice Paper award from the Review of Scientific Instruments (RSI) journal and the Academic Publication Excellence Award (2025). An experienced leader within the IEEE community, he has served as the General Chair for the IEEE Student Conference on Research and Development (SCORED) and is a frequent reviewer for high-impact journals such as Springer Nature. He is a sought-after international keynote speaker, having shared his insights on sustainability and technology leadership in France, Indonesia, and Taiwan."
+    },
+    {
+      "id": 2,
+      "name": "Ts Dr Mohd Talmizie Amron",
+      "designation": "Head of Study Centre - Faculty of Computer and Mathematical Sciences, UiTM Terengganu Branch, Malaysia",
+      "expertise": "Computer Science",
+      "title": "Architecting Next-Gen Data Analytics for Digital Inclusion and Societal Resilience",
+      "image": "assets/images/keynote/MOHD_TALMIZIE.jpg",
+      "profile": "Dr. Mohd Talmizie Amron is a distinguished academic leader and researcher with over 13 years of experience in informatics and computational sciences. He currently serves as the Head of Study Center for the Faculty of Computer and Mathematical Sciences at Universiti Teknologi MARA (UiTM), Malaysia. A recognized Professional Technologist (Ts.) and an active IEEE Member, his research focuses on digital inclusion, persuasive technology, and digital business ecosystems. He is a vocal advocate for leveraging informatics to create equitable digital environments. Dr. Talmizie has delivered keynote addresses internationally, including at the IEEE ICERCS’24 in India. He holds a PhD in Informatics and is committed to bridging complex data systems with human-centric applications."
+    }
+  ]
+}

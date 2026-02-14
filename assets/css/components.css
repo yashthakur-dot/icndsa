@@ -67,6 +67,26 @@
   letter-spacing: 0.2px;
 }
 
+.conference-theme-sub {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #004f7c;
+  letter-spacing: 0.1px;
+}
+
+/* Small devices (≤ 576px) */
+@media (max-width: 575.98px) {
+  .conference-theme {
+    font-size: 1.5rem;   /* reduced from 2rem */
+    letter-spacing: 0.1px;
+  }
+
+  .conference-theme-sub {
+    font-size: 1rem;     /* reduced from 1.2rem */
+    letter-spacing: 0;
+  }
+}
+
 .conference-acronym {
   font-size: 1rem;
   font-weight: 600;
@@ -99,7 +119,7 @@
 .list-group-item.active {
   background-color: #003b5c !important;
   border-color: #003b5c !important;
-  color: #ffffff !;
+  color: #ffffff !important;
 }
 
 /* Hover state */
@@ -142,6 +162,12 @@
   animation: blink 1.2s infinite;
 }
 
+.conference-highlight {
+  border-left: 4px solid #132f53 !important;
+  background-color: rgba(26, 115, 232, 0.08) !important;
+  padding-left: 12px !important;
+}
+
 @keyframes blink {
   0%, 100% { opacity: 1; }
   50% { opacity: 0; }
@@ -153,4 +179,9 @@
 
 .bg-footer {
   background-color: #002855 !important; /* IEEE deep blue */
+}
+
+.dashed-hr {
+  border: 0;
+  border-top: 2px dashed #1a73e8;
 }

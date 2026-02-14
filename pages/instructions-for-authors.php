@@ -47,7 +47,7 @@
   <h1>Instructions for Authors</h1>
   <hr>
 
-  <ul class="instructions-list">
+  <ul class="instructions-list text-justify">
     <li>
       Authors are required to submit their manuscripts using Microsoft CMT by clicking
       <a href="https://cmt3.research.microsoft.com/ICNDSA2026">here</a>.

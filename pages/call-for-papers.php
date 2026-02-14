@@ -1,59 +1,77 @@
 <style>
 /* ===============================
-   CALL FOR PAPERS – IEEE STYLE
+   PREMIUM CFP DESIGN
    =============================== */
 
-.cfp-page {
-  max-width: 1000px;
+.cfp-section {
+  max-width: 1100px;
   margin: 0 auto;
 }
 
-.cfp-page h1 {
-  font-size: 1.8rem;
+.cfp-header {
+  border-left: 5px solid #1a73e8;
+  padding-left: 15px;
+  margin-bottom: 1.8rem;
+}
+
+.cfp-header h1 {
+  font-size: 2rem;
   font-weight: 700;
-  color: #003b5c; /* IEEE blue */
-  margin-bottom: 0.5rem;
+  color: #003b5c;
+  margin-bottom: 0.3rem;
 }
 
-.cfp-page hr {
-  border: none;
-  border-bottom: 2px solid #1a73e8;
-  margin-bottom: 1.5rem;
+.cfp-header p {
+  color: #4b5563;
+  margin: 0;
 }
 
-.cfp-page p {
-  line-height: 1.7;
+.cfp-section p {
+  text-align: justify;
+  line-height: 1.8;
   color: #1f2937;
-  margin-bottom: 1rem;
 }
 
-.track {
-  margin-top: 1.8rem;
+/* Track cards */
+.track-card {
+  border: 1px solid #e6eef7;
+  border-left: 4px solid #1a73e8;
+  border-radius: 6px;
+  padding: 1.3rem;
+  height: 100%;
+  background-color: #ffffff;
+  transition: all 0.2s ease;
 }
 
-.track-title {
-  font-size: 1.1rem;
+.track-card:hover {
+  border-left-color: #003b5c;
+  background-color: #f9fbff;
+}
+
+.track-card h5 {
   font-weight: 600;
   color: #003b5c;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.8rem;
 }
 
-.track ul {
+.track-card ul {
   padding-left: 1.2rem;
   margin: 0;
 }
 
-.track ul li {
-  margin-bottom: 0.4rem;
+.track-card ul li {
+  margin-bottom: 0.5rem;
   line-height: 1.6;
-  color: #1f2937;
+  color: #374151;
 }
 </style>
 
-<section class="cfp-page">
+<section class="cfp-section py-4">
 
-  <h1>Call For Papers</h1>
-  <hr>
+  <!-- Header -->
+  <div class="cfp-header">
+    <h1>Call For Papers</h1>
+  </div>
 
   <p>
     The ICNDSA-2026 conference aims to serve as a global platform for professionals,
@@ -75,68 +93,78 @@
     Analytics, including (but not limited to):
   </p>
 
-  <!-- Track 1 -->
-  <div class="track">
-    <div class="track-title">Track 1: Advanced AI and Machine Learning</div>
-    <ul>
-      <li>Deep Learning Innovations</li>
-      <li>Reinforcement Learning Applications</li>
-      <li>Explainable AI Applications</li>
-      <li>AutoML Frameworks and Libraries</li>
-      <li>Hyperparameter Optimization</li>
-      <li>Quantum Computing in Data Science</li>
-    </ul>
-  </div>
+  <!-- Track Grid -->
+  <div class="row g-4 mt-4">
 
-  <!-- Track 2 -->
-  <div class="track">
-    <div class="track-title">Track 2: Big Data, IoT, and Real-Time Analytics</div>
-    <ul>
-      <li>Distributed Computing and Storage Solutions</li>
-      <li>Real-time Data Processing</li>
-      <li>Big Data Integration and Management</li>
-      <li>Smart City Data Applications</li>
-      <li>Real-time Sensor Data Processing</li>
-      <li>Predictive Maintenance with IoT Data</li>
-      <li>Edge Computing for Data Processing</li>
-    </ul>
-  </div>
+    <div class="col-md-6">
+      <div class="track-card">
+        <h5>Track 1: Advanced AI and Machine Learning</h5>
+        <ul>
+          <li>Deep Learning Innovations</li>
+          <li>Reinforcement Learning Applications</li>
+          <li>Explainable AI Applications</li>
+          <li>AutoML Frameworks and Libraries</li>
+          <li>Hyperparameter Optimization</li>
+          <li>Quantum Computing in Data Science</li>
+        </ul>
+      </div>
+    </div>
 
-  <!-- Track 3 -->
-  <div class="track">
-    <div class="track-title">Track 3: Data Science in Healthcare, Finance, and Business</div>
-    <ul>
-      <li>Precision Medicine and Genomics</li>
-      <li>Health Informatics Systems</li>
-      <li>Data-Driven Public Health</li>
-      <li>Algorithmic Trading and Market Analysis</li>
-      <li>Risk Management and Fraud Detection</li>
-      <li>Blockchain and Cryptocurrency Analytics</li>
-      <li>Predictive Analytics in Business</li>
-      <li>Data-Driven Marketing Strategies</li>
-      <li>Customer Insights and Personalization</li>
-    </ul>
-  </div>
+    <div class="col-md-6">
+      <div class="track-card">
+        <h5>Track 2: Big Data, IoT & Real-Time Analytics</h5>
+        <ul>
+          <li>Distributed Computing and Storage Solutions</li>
+          <li>Real-time Data Processing</li>
+          <li>Big Data Integration and Management</li>
+          <li>Smart City Data Applications</li>
+          <li>Real-time Sensor Data Processing</li>
+          <li>Predictive Maintenance with IoT Data</li>
+          <li>Edge Computing for Data Processing</li>
+        </ul>
+      </div>
+    </div>
 
-  <!-- Track 4 -->
-  <div class="track">
-    <div class="track-title">Track 4: Data Science for Environmental and Social Impact</div>
-    <ul>
-      <li>Climate Data Analysis and Modeling</li>
-      <li>Social Network Analysis</li>
-      <li>Sustainable Development Analytics</li>
-    </ul>
-  </div>
+    <div class="col-md-6">
+      <div class="track-card">
+        <h5>Track 3: Healthcare, Finance & Business</h5>
+        <ul>
+          <li>Precision Medicine and Genomics</li>
+          <li>Health Informatics Systems</li>
+          <li>Data-Driven Public Health</li>
+          <li>Algorithmic Trading and Market Analysis</li>
+          <li>Risk Management and Fraud Detection</li>
+          <li>Blockchain and Cryptocurrency Analytics</li>
+          <li>Predictive Analytics in Business</li>
+          <li>Data-Driven Marketing Strategies</li>
+          <li>Customer Insights and Personalization</li>
+        </ul>
+      </div>
+    </div>
 
-  <!-- Track 5 -->
-  <div class="track">
-    <div class="track-title">Track 5: Tools, Platforms, and Emerging Innovations</div>
-    <ul>
-      <li>Open Source Tools and Libraries</li>
-      <li>Enterprise Data Science Platforms</li>
-      <li>Comparative Studies of Data Science Software</li>
-      <li>Innovations in Data Engineering</li>
-    </ul>
+    <div class="col-md-6">
+      <div class="track-card">
+        <h5>Track 4: Environmental & Social Impact</h5>
+        <ul>
+          <li>Climate Data Analysis and Modeling</li>
+          <li>Social Network Analysis</li>
+          <li>Sustainable Development Analytics</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="track-card">
+        <h5>Track 5: Tools, Platforms, and Emerging Innovations</h5>
+        <ul>
+          <li>Open Source Tools and Libraries</li>
+          <li>Enterprise Data Science Platforms</li>
+          <li>Comparative Studies of Data Science Software</li>
+          <li>Innovations in Data Engineering</li>
+        </ul>
+      </div>
+    </div>
+
   </div>
 
 </section>

@@ -34,3 +34,36 @@
   color: #1f2937;
   margin-bottom: 1rem;
 }
+
+.ieee-blue-link {
+  color: #00629b; /* IEEE Blue */
+  font-weight: 600; /* Semibold */
+  text-decoration: none; /* Optional: removes underline */
+}
+
+.ieee-blue-link:hover {
+  color: #004f7a; /* Slightly darker on hover */
+  text-decoration: underline; /* Optional hover effect */
+}
+
+/* Remove left & right padding effect */
+.home-banner-wrapper {
+  margin-left: -2rem;
+  margin-right: -2rem;
+}
+
+/* Make image full width */
+.home-banner {
+  width: 100%;
+  height: 300px; /* Adjust height */
+  object-fit: cover;
+  display: block;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-ieee {
+  color: #003b5c;
+}

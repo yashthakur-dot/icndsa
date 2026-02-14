@@ -12,8 +12,7 @@
         { "title": "Organizing Committee", "page": "organizing-committee", "icon": "diagram-3" },
         { "title": "International Advisory Committee", "page": "international-advisory-committee", "icon": "globe" },
         { "title": "National Advisory Committee", "page": "national-advisory-committee", "icon": "flag" },
-        { "title": "Technical Committee", "page": "technical-committee", "icon": "gear" },
-        { "title": "Student Volunteers", "page": "student-volunteers", "icon": "person-heart" }
+        { "title": "Technical Committee", "page": "technical-committee", "icon": "gear" }
       ]
     },
     {
@@ -28,22 +27,19 @@
       ]
     },
     {
-      "title": "Call for Papers",
-      "icon": "megaphone",
-      "children": [
-        { "title": "Conference Tracks", "page": "tracks", "icon": "layers" },
-        { "title": "Submission Guidelines", "page": "guidelines", "icon": "clipboard-check" }
-      ]
-    },
-    {
-      "title": "Registration",
-      "page": "registration",
-      "icon": "credit-card"
+      "title": "Guest speaker/ Keynote",
+      "page": "keynote-speaker",
+      "icon": "person-badge"
+
     },
     {
       "title": "Venue",
-      "page": "venue",
-      "icon": "geo-alt"
+      "icon": "geo-alt",
+      "children": [
+        { "title": "Conference Venue", "page": "venue", "icon": "layers" },
+        { "title": "Transportation", "page": "transportation", "icon": "bus-front" },
+        { "title": "eVisa", "page": "visa", "icon": "passport" }
+      ]
     },
     {
       "title": "Contact",

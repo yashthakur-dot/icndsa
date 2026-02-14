@@ -1,11 +1,14 @@
 <header class="ieee-header position-relative">
 
     <!-- Logos strip -->
-    <div class="container bg-light rounded-bottom">
+    <div class="container">
         <div class="row align-items-center py-1 header-logos">
 
             <div class="col-6 d-flex align-items-center">
-                <img src="assets/images/logos/up_section_logo.png" alt="IEEE Logo" class="header-logo ieee-logo">
+                <a href="https://conferences.ieee.org/conferences_events/conferences/conferencedetails/68777"
+                    target="_blank" class="ieee-logo-link">
+                    <img src="assets/images/logos/up_section_logo.png" alt="IEEE Logo" class="header-logo ieee-logo">
+                </a>
             </div>
 
             <div class="col-6 d-flex justify-content-end align-items-center">
@@ -19,32 +22,32 @@
     <!-- Conference content -->
     <div class="container text-center">
 
-        <h1 class="conference-title mb-1">
-            International Conference on
-        </h1>
-
         <h2 class="conference-theme mb-1">
-            NextGen Data Science and Analytics
+            2026 International Conference on NextGen Data Science and Analytics <br /> (ICNDSA 2026)
         </h2>
 
-        <p class="conference-acronym mb-2">
-            (ICNDSA&nbsp;2026)
+        <p class="conference-acronym my-3">
+            Conference Record:
+            <a href="https://conferences.ieee.org/conferences_events/conferences/conferencedetails/68777"
+                class="ieee-blue-link" target="_blank">
+                #68777
+            </a>
         </p>
 
         <div class="row justify-content-center conference-meta">
 
-            <div class="col-12 col-md-6">
-                <p class="mb-2">
+            <div class="col-12 text-center">
+                <p class="mb-2 conference-theme-sub">
                     <strong>Organized by</strong><br>
                     School of Sciences<br>
                     CHRIST (Deemed to be University), Delhi NCR Campus, India
                 </p>
             </div>
 
-            <div class="col-12 col-md-4">
+            <div class="col-12 text-center">
                 <p class="mb-2">
-                    <strong>Date:</strong> 10–11 April 2026<br>
-                    <strong>Mode:</strong> Offline
+                    <strong>Date:</strong> <span class="fw-semibold">10–11 April 2026</span><br>
+                    <strong>Mode:</strong> <span class="fw-semibold">In-Person</span>
                 </p>
             </div>
 
@@ -52,7 +55,7 @@
     </div>
 
     <!-- Mobile menu button -->
-    <button class="btn d-lg-none position-absolute" style="top: 50px; right: 5px;" type="button"
+    <button class="btn d-lg-none position-absolute" style="top: 50px; right: 1px;" type="button"
         data-bs-toggle="offcanvas" data-bs-target="#mobileMenu">
         <i class="bi bi-list fs-4"></i>
     </button>

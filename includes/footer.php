@@ -20,9 +20,10 @@
 
         <p class="small mb-0">
           Email:
-          <a href="mailto:icndsa@christuniversity.in" class="link-light">
-            icndsa@christuniversity.in
+          <a href="mailto:icndsa.ncr@christuniversity.in" class="link-light">
+            icndsa.ncr@christuniversity.in
           </a><br>
+          Website:
           <a href="https://ncr.christuniversity.in" target="_blank" class="link-light">
             ncr.christuniversity.in
           </a>
@@ -50,7 +51,6 @@
           <li class="mb-2"><a class="link-light" href="index.php?page=instructions-for-authors">Instructions for Authors</a></li>
           <li class="mb-2"><a class="link-light" href="index.php?page=call-for-papers">Call for Paper</a></li>
           <li class="mb-2"><a class="link-light" href="index.php?page=submission-form">Submission Form</a></li>
-          <li class="mb-2"><a class="link-light" href="index.php?page=important-dates">Important Dates</a></li>
           <li class="mb-2"><a class="link-light" href="index.php?page=registration">Registration</a></li>
           <li><a class="link-light" href="index.php?page=publication">Publication</a></li>
         </ul>
