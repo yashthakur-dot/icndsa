@@ -177,6 +177,29 @@
   color: #1f2937;
 }
 
+/* Blinking red dot */
+
+.blink {
+    color: #dc3545;
+    display: inline-block;
+    animation: blink 1.4s infinite;
+}
+
+.blink-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #dc3545; /* Bootstrap danger red */
+  border-radius: 50%;
+  display: inline-block;
+  animation: blink 1.2s infinite;
+}
+
+.conference-highlight {
+  border-left: 4px solid #132f53 !important;
+  background-color: rgba(26, 115, 232, 0.08) !important;
+  padding-left: 12px !important;
+}
+
 @keyframes blink {
   0%, 100% { opacity: 1; }
   50% { opacity: 0; }
