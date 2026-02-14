@@ -27,20 +27,21 @@
         <div class="card-body">
 
             <!-- Image + Intro Text Row -->
-            <div class="row g-3 align-items-start mb-3">
-                <div class="col-12 col-md-5 col-lg-4 venue-img">
+            <div class="row g-4 align-items-start mb-3">
+
+                <div class="col-12 col-md-5 venue-img">
                     <img src="assets/images/background.png" alt="Christ University" class="img-fluid rounded">
                 </div>
 
-                <div class="col-12 col-md-8">
+                <div class="col-12 col-md-7">
                     <p class="mb-0 text-justify">
-                        CHRIST (Deemed to be University) was born out of the educational vision
-                        of St Kuriakose Elias Chavara, an educationalist and social reformer of
-                        the nineteenth century in South India. He founded the first Catholic
-                        indigenous congregation, Carmelites of Mary Immaculate (CMI), in 1831,
-                        which administers CHRIST (Deemed to be University).
+                        CHRIST (Deemed to be University) was born out of the educational vision of St Kuriakose Elias
+                        Chavara, an educationalist and social reformer of the nineteenth century in South India. He
+                        founded the first Catholic indigenous congregation, Carmelites of Mary Immaculate (CMI), in
+                        1831, which administers CHRIST (Deemed to be University).
                     </p>
                 </div>
+
             </div>
 
             <!-- Remaining Full Width Text -->
@@ -143,7 +144,8 @@
 
                 <!-- Image in Between -->
                 <div class="text-center my-3 venue-img">
-                    <img src="<?= $place['img']; ?>" alt="<?= $place['title']; ?>" class="img-fluid rounded">
+                    <img src="<?= $place['img']; ?>" alt="<?= $place['title']; ?>" class="img-fluid rounded" width="100%"
+                        height="300px">
                 </div>
 
                 <!-- Remaining Text -->
