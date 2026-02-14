@@ -33,7 +33,7 @@ $currentPage = $_GET['page'] ?? 'home';
                 <div class="collapse <?= $isOpen ? 'show' : '' ?>" id="submenu-<?= $index ?>">
                     <?php foreach ($item['children'] as $child): ?>
                         <a href="index.php?page=<?= $child['page'] ?>"
-                            class="list-group-item list-group-item-action ps-5 <?= $currentPage === $child['page'] ? 'active' : '' ?>">
+                            class="list-group-item list-group-item-action ps-5 <?= $currentPage === $child['page'] ? 'submenu-active' : '' ?>"
                             <?php if (!empty($child['icon'])): ?>
                                 <i class="bi bi-<?= $child['icon'] ?> me-2"></i>
                             <?php endif; ?>

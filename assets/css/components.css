@@ -141,31 +141,40 @@
 }
 
 
-/* ===============================
-   IMPORTANT DATES – IEEE SIMPLE
-   =============================== */
+/* ================================
+   MENU STYLING – PROFESSIONAL
+================================ */
 
-/* Blinking red dot */
-
-.blink {
-    color: #dc3545;
-    display: inline-block;
-    animation: blink 1.4s infinite;
+/* Parent Active (Dark IEEE Blue) */
+.list-group-item.active {
+  background-color: #003b5c !important;
+  border-color: #003b5c !important;
+  color: #ffffff !important;
 }
 
-.blink-dot {
-  width: 8px;
-  height: 8px;
-  background-color: #dc3545; /* Bootstrap danger red */
-  border-radius: 50%;
-  display: inline-block;
-  animation: blink 1.2s infinite;
+/* Submenu Active (Lighter Blue) */
+.submenu-active {
+  background-color: #87b2d2a2 !important;   /* soft light blue */
+  border-left: 4px solid #1a73e8;
+  color: #003b5c !important;
+  font-weight: 600;
 }
 
-.conference-highlight {
-  border-left: 4px solid #132f53 !important;
-  background-color: rgba(26, 115, 232, 0.08) !important;
-  padding-left: 12px !important;
+/* Submenu hover */
+.list-group-item-action.ps-5:hover {
+  background-color: #f4f8fc;
+}
+
+/* Parent hover */
+.list-group-item-action:hover {
+  background-color: #f3f6f9;
+}
+
+/* Default menu text */
+.list-group-item,
+.list-group-item-action {
+  font-weight: 600;
+  color: #1f2937;
 }
 
 @keyframes blink {
