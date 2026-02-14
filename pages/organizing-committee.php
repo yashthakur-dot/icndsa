@@ -22,6 +22,15 @@ $data = json_decode($json, true);
   padding: 5px 6px;
 }
 
+@media (max-width: 576px) {
+  .committee-title {
+    font-size: 1.2rem;
+    border-left: 3px solid #1a73e8;
+    padding: 4px 6px;
+    margin-bottom: 1rem;
+  }
+}
+
 .subcommittee-title {
   font-size: 1.2rem;
   font-weight: 600;
