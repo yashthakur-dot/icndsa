@@ -4,6 +4,12 @@
 
 <style>
     /* Only what Bootstrap cannot do alone */
+    .venue-img-custom {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        /* IMPORTANT */
+    }
 
     /* Smooth image fit */
     .venue-img img {
@@ -144,8 +150,7 @@
 
                 <!-- Image in Between -->
                 <div class="text-center my-3 venue-img">
-                    <img src="<?= $place['img']; ?>" alt="<?= $place['title']; ?>" class="img-fluid rounded" width="100%"
-                        height="300px">
+                    <img src="<?= $place['img']; ?>" alt="<?= $place['title']; ?>" class="venue-img-custom rounded">
                 </div>
 
                 <!-- Remaining Text -->
