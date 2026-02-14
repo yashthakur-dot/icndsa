@@ -85,7 +85,7 @@ $data = json_decode($json, true);
 
 <div class="container">
 
-  <h1 class="mb-5 fw-bold ieee-text">Conference Committee</h1>
+  <h1 class="mb-5 fw-bold ieee-text">Organizing Committee</h1>
 
   <?php foreach ($data['committee'] as $section): ?>
     
