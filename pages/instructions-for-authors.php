@@ -1,48 +1,4 @@
-<style>
-/* ===============================
-   INSTRUCTIONS FOR AUTHORS
-   =============================== */
-
-.instructions-page {
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-.instructions-page h1 {
-  font-size: 1.8rem;
-  font-weight: 700;
-  color: #003b5c; /* IEEE blue */
-  margin-bottom: 0.5rem;
-}
-
-.instructions-page hr {
-  border: none;
-  border-bottom: 2px solid #1a73e8;
-  width: 100%;
-  margin-bottom: 1.2rem;
-}
-
-.instructions-list {
-  padding-left: 1.2rem;
-}
-
-.instructions-list li {
-  margin-bottom: 1rem;
-  line-height: 1.6;
-  color: #1f2937;
-}
-
-.instructions-list a {
-  color: #1a73e8;
-  text-decoration: none;
-}
-
-.instructions-list a:hover {
-  text-decoration: underline;
-}
-</style>
-
-<section class="instructions-page">
+<section class="instructions-page page-instructions-for-authors">
 
   <h1>Instructions for Authors</h1>
   <hr>

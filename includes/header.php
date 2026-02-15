@@ -6,7 +6,7 @@
 
             <div class="col-6 d-flex align-items-center">
                 <a href="https://conferences.ieee.org/conferences_events/conferences/conferencedetails/68777"
-                    target="_blank" class="ieee-logo-link">
+                    target="_blank" rel="noopener noreferrer" class="ieee-logo-link">
                     <img src="assets/images/logos/up_section_logo.png" alt="IEEE Logo" class="header-logo ieee-logo">
                 </a>
             </div>
@@ -29,7 +29,7 @@
         <p class="conference-acronym my-3">
             Conference Record:
             <a href="https://conferences.ieee.org/conferences_events/conferences/conferencedetails/68777"
-                class="ieee-blue-link" target="_blank">
+                class="ieee-blue-link" target="_blank" rel="noopener noreferrer">
                 #68777
             </a>
         </p>

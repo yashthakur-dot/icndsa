@@ -1,7 +1,21 @@
-/* @media (max-width: 991px) {
-  .dates {
-    order: 3;
-    padding: 1rem;
+@media (max-width: 991.98px) {
+  /* Match reduced .content padding on mobile */
+  .home-banner-wrapper {
+    margin-left: -1rem;
+    margin-right: -1rem;
   }
 }
- */
+
+@media (max-width: 575.98px) {
+  .home-banner {
+    height: 200px;
+  }
+
+  .page-venue .venue-img-custom {
+    height: 240px;
+  }
+
+  .page-transportation .main-heading {
+    font-size: 28px;
+  }
+}

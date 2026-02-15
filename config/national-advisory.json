@@ -1,0 +1,15 @@
+{
+  "title": "National Advisory Committee",
+  "members": [
+    { "name": "Ajay Vikram Singh", "affiliation": "Amity University, Noida, India" },
+    { "name": "Achyut Shankar", "affiliation": "Bennet University, India" },
+    { "name": "Aanjey Mani Tripathi", "affiliation": "Galgotias University, India" },
+    { "name": "Rahul Johari", "affiliation": "Guru Gobind Singh Indraprastha University, Delhi, India" },
+    { "name": "Nitin Pandey", "affiliation": "Galgotias University, India" },
+    { "name": "Munish Sabharwal", "affiliation": "IILM University, U.P, India" },
+    { "name": "Rajesh Kumar Dhanaraj", "affiliation": "Symbiosis International University, Pune, India" },
+    { "name": "Pethuru Raj", "affiliation": "Chief Architect & Vice President, Reliance Jio Platforms Ltd., Bengaluru, India" },
+    { "name": "Amanpreet Kaur", "affiliation": "Chitkara University, Punjab, India" },
+    { "name": "Manik Rakhra", "affiliation": "Lovely Professional University, Punjab, India" }
+  ]
+}

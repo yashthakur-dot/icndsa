@@ -1,0 +1,26 @@
+{
+  "title": "International Advisory Board Members",
+  "members": [
+    { "name": "Dr Amir H Gandomi", "affiliation": "University of Technology, Sydney, Australia" },
+    { "name": "Azween Bin Abdullah", "affiliation": "Perdana University, Malaysia" },
+    { "name": "Ahmed A. Elngar", "affiliation": "Beni-Suef University, Egypt" },
+    { "name": "Bharanidharan Shanmugam", "affiliation": "Charles Darwin University, Australia" },
+    { "name": "Celestine IWENDI", "affiliation": "University of Greater Manchester, Bolton" },
+    { "name": "J. Joshua Thomas", "affiliation": "UOW Malaysia, KDU Penang University College" },
+    { "name": "Joel J. P. C. Rodrigues", "affiliation": "Federal University of Piaui, Brazil" },
+    { "name": "Ghulam E Mustafa Abro", "affiliation": "King Fahd University of Petroleum and Minerals (KFUPM), Saudi Arabia" },
+    { "name": "George Sammour", "affiliation": "Dean of King Talal School of Business Technology, Jordan" },
+    { "name": "Gianluigi Ferrari", "affiliation": "University of Parma, Italy" },
+    { "name": "Mohammad S. Obaidat", "affiliation": "University of Jordan" },
+    { "name": "Mayouf Mouna Sarbine", "affiliation": "Scientific Lead, Capgemini Engineering, France" },
+    { "name": "Mariya Ouaissa", "affiliation": "Cadi Ayyad University, Marrakech, Morocco" },
+    { "name": "Mariyam Ouaissa", "affiliation": "Chouaib Doukkali University, El Jadida, Morocco" },
+    { "name": "Raed Masadeh", "affiliation": "University of Jordan, Jordan" },
+    { "name": "Surbhi Bhatia", "affiliation": "University of Salford, Manchester, United Kingdom" },
+    { "name": "Sérgio D. Correia", "affiliation": "Portalegre Polytechnic University, Portugal" },
+    { "name": "S Munimurugan", "affiliation": "University of Tabuk, Saudi Arabia" },
+    { "name": "Vishnu S. Pendyala", "affiliation": "University Senator & Faculty in Applied Data Science, San Jose State University, California, USA" },
+    { "name": "Vijayakumar Varadarajan", "affiliation": "UTS, Sydney, Australia" },
+    { "name": "Zakaria Boulouard", "affiliation": "LIM, Hassan II University of Casablanca, Morocco" }
+  ]
+}

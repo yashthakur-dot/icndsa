@@ -17,6 +17,7 @@ body {
     -apple-system,
     BlinkMacSystemFont;
   background: var(--bg-light);
+  overflow-x: hidden;
 }
 
 * {

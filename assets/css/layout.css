@@ -22,7 +22,7 @@
   flex: 1;                 /* fills remaining height */
   display: grid;
   grid-template-columns: 1fr; /* mobile first */
-  overflow: hidden;        /* prevents page scroll */
+  overflow-x: hidden;
 }
 
 /* Desktop */
@@ -60,6 +60,12 @@
   background: #ffffff;
   padding: 2rem;
   overflow-x: hidden;
+}
+
+@media (max-width: 991px) {
+  .content {
+    padding: 1rem;
+  }
 }
 
 @media (max-width: 991px) {

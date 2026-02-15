@@ -1,64 +1,4 @@
-<style>
-/* ===============================
-   SUBMISSION GUIDELINES – IEEE
-   =============================== */
-
-.submission-page {
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.submission-page h1 {
-  font-size: 1.8rem;
-  font-weight: 700;
-  color: #003b5c; /* IEEE blue */
-  margin-bottom: 0.5rem;
-}
-
-.submission-page hr {
-  border: none;
-  border-bottom: 2px solid #1a73e8;
-  margin-bottom: 1.5rem;
-}
-
-.submission-page p {
-  line-height: 1.7;
-  color: #1f2937;
-  margin-bottom: 1rem;
-}
-
-.submission-page a {
-  color: #1a73e8;
-  text-decoration: none;
-}
-
-.submission-page a:hover {
-  text-decoration: underline;
-}
-
-.submission-section {
-  margin-top: 1.8rem;
-}
-
-.submission-section h2 {
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: #003b5c;
-  margin-bottom: 0.6rem;
-}
-
-.submission-list {
-  padding-left: 1.2rem;
-}
-
-.submission-list li {
-  margin-bottom: 0.6rem;
-  line-height: 1.6;
-  color: #1f2937;
-}
-</style>
-
-<section class="submission-page text-justify">
+<section class="submission-page text-justify page-submission-form">
 
   <h1>Submission Guidelines</h1>
   <hr>
@@ -78,7 +18,7 @@
   <p>
     All submissions need to be submitted through the CMT using the link:
     <br>
-    <a href="https://cmt3.research.microsoft.com/ICNDSA2026" target="_blank">
+    <a href="https://cmt3.research.microsoft.com/ICNDSA2026" target="_blank" rel="noopener noreferrer">
       https://cmt3.research.microsoft.com/ICNDSA2026
     </a>
   </p>
@@ -91,7 +31,7 @@
 
   <p>
     Please follow
-    <a href="https://www.ieee.org/conferences/publishing/templates.html" target="_blank">
+    <a href="https://www.ieee.org/conferences/publishing/templates.html" target="_blank" rel="noopener noreferrer">
       https://www.ieee.org/conferences/publishing/templates.html
     </a>.
   </p>
@@ -110,7 +50,7 @@
     <p>
       This and other submission policies can be found in the IEEE Author Center
       Conference Author Submission Policies page at:
-      <a href="https://conferences.ieeeauthorcenter.ieee.org/author-ethics/guidelines-and-policies/submission-policies/" target="_blank">
+      <a href="https://conferences.ieeeauthorcenter.ieee.org/author-ethics/guidelines-and-policies/submission-policies/" target="_blank" rel="noopener noreferrer">
         IEEE Author Submission Policies
       </a>
     </p>
@@ -130,8 +70,8 @@
     <h2>Templates</h2>
 
     <ul class="submission-list">
-      <li><a href="https://www.ieee.org/conferences/publishing/templates.html" target="_blank">Word Template Download</a></li>
-      <li><a href="https://www.ieee.org/conferences/publishing/templates.html" target="_blank">LATEX Template Download</a></li>
+      <li><a href="https://www.ieee.org/conferences/publishing/templates.html" target="_blank" rel="noopener noreferrer">Word Template Download</a></li>
+      <li><a href="https://www.ieee.org/conferences/publishing/templates.html" target="_blank" rel="noopener noreferrer">LATEX Template Download</a></li>
     </ul>
   </div>
 

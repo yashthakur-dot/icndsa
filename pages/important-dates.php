@@ -1,36 +1,4 @@
-<style>
-/* Vertical line */
-.timeline-line {
-  position: absolute;
-  left: 10px;
-  top: 0;
-  bottom: 0;
-  width: 3px;
-  background-color: #dbeafe; /* light IEEE blue */
-}
-
-/* Dot */
-.timeline-dot {
-  width: 14px;
-  height: 14px;
-  background-color: #1a73e8; /* Bootstrap primary */
-  border-radius: 50%;
-  margin-top: 4px;
-  flex-shrink: 0;
-}
-
-/* Blinking highlight dot (conference dates) */
-.blink-dot {
-  background-color: #dc3545;
-  animation: blink 1.2s infinite;
-}
-
-@keyframes blink {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0; }
-}
-</style>
-<section class="container my-5" style="max-width: 900px;">
+<section class="container my-5 page-important-dates">
 
   <h1 class="fw-bold text-primary mb-1">Important Dates</h1>
   <hr class="border-primary border-2 mb-4">
@@ -83,7 +51,7 @@
 
     <!-- Highlighted -->
     <div class="d-flex gap-3 mb-2 timeline-item">
-      <span class="timeline-dot blink-dot"></span>
+      <span class="timeline-dot timeline-blink"></span>
       <div>
         <div class="fw-bold">Conference Dates</div>
         <div class="fw-bold text-danger">10 – 11 Apr, 2026</div>

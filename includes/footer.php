@@ -24,7 +24,7 @@
             icndsa.ncr@christuniversity.in
           </a><br>
           Website:
-          <a href="https://ncr.christuniversity.in" target="_blank" class="link-light">
+          <a href="https://ncr.christuniversity.in" target="_blank" rel="noopener noreferrer" class="link-light">
             ncr.christuniversity.in
           </a>
         </p>

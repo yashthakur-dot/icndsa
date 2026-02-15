@@ -1,6 +1,6 @@
 <!-- Transport Component Start -->
 
-<section class="transport-section">
+<section class="transport-section page-transportation">
     <div class="container">
 
         <!-- Main Heading -->
@@ -85,26 +85,5 @@
 
     </div>
 </section>
-
-<!-- Minimal Professional Styling -->
-<style>
-
-.main-heading {
-    font-size: 42px;
-    font-weight: 300;
-    color: #1f2d3d;
-}
-
-.section-title {
-    font-weight: 600;
-    color: #1f2d3d;
-}
-/* 
-.transport-section p {
-    color: #4a4a4a;
-    line-height: 1.8;
-    max-width: 950px;
-} */
-</style>
 
 <!-- Transport Component End -->

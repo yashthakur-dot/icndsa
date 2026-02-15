@@ -217,3 +217,44 @@
   border: 0;
   border-top: 2px dashed #1a73e8;
 }
+
+/* =========================
+   NEWS TICKER
+   ========================= */
+
+.news-ticker {
+  font-size: 0.95rem;
+  white-space: nowrap;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.ticker-track {
+  width: max-content;
+  animation: ticker-scroll 30s linear infinite;
+}
+
+.ticker-item {
+  padding-right: 4rem;
+  font-weight: 500;
+}
+
+@keyframes ticker-scroll {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ticker-track {
+    animation: none;
+    transform: none;
+  }
+
+  .blink,
+  .blink-dot {
+    animation: none;
+  }
+}

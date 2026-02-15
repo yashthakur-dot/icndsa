@@ -2,29 +2,7 @@
 /* Venue Component – Bootstrap 5.3 */
 ?>
 
-<style>
-    /* Only what Bootstrap cannot do alone */
-    .venue-img-custom {
-        width: 100%;
-        height: 400px;
-        object-fit: cover;
-        /* IMPORTANT */
-    }
-
-    /* Smooth image fit */
-    .venue-img img {
-        object-fit: cover;
-    }
-
-    /* Optional: limit image height on small screens */
-    @media (max-width: 575.98px) {
-        .venue-img img {
-            max-height: 220px;
-        }
-    }
-</style>
-
-<div class="container">
+<div class="container page-venue">
 
     <!-- Venue -->
     <h2 class="text-center p-0 mb-0.2 ieee-blue">Venue</h2>
@@ -168,8 +146,8 @@
 
                     <p class="mb-0">
                         <span class="fw-semibold text-dark">Official Website:</span>
-                        <a href="<?= $place['link']; ?>" class="ieee-blue text-decoration-none" target="_blank">
-                            <?= $cleanLink; ?>
+                        <a href="<?= htmlspecialchars((string)$place['link'], ENT_QUOTES, 'UTF-8'); ?>" class="ieee-blue text-decoration-none" target="_blank" rel="noopener noreferrer">
+                            <?= htmlspecialchars((string)$cleanLink, ENT_QUOTES, 'UTF-8'); ?>
                         </a>
                     </p>
 

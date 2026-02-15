@@ -1,54 +1,4 @@
-<style>
-  /* ===== Only design-specific overrides ===== */
-
-  .registration-title {
-    color: #003b5c;
-    /* IEEE blue */
-  }
-
-  .registration-hr {
-    border-bottom: 2px solid #1a73e8;
-  }
-
-  .table thead th {
-    background-color: #003b5c;
-    color: #fff;
-    vertical-align: middle;
-    border-color: rgba(255, 255, 255, 0.2);
-  }
-
-  .table thead .sub-head th {
-    background-color: #e5e7eb;
-    color: #1f2937;
-    font-size: 0.85rem;
-    font-weight: 500;
-  }
-
-  .table-hover tbody tr:hover {
-    background-color: #97b2cc !important;
-  }
-
-  .table tbody tr:nth-child(even) {
-    background-color: #f9fafb;
-  }
-
-  .table tbody td:first-child {
-    text-align: start;
-    font-weight: 500;
-    color: #003b5c;
-  }
-
-  .note-box {
-    background: #fff7d6;
-    border-left: 4px solid #facc15;
-  }
-
-  .payment-title {
-    color: #003b5c;
-  }
-</style>
-
-<section class="container">
+<section class="container page-registration">
 
   <!-- Title -->
   <h1 class="registration-title fw-bold fs-4 mb-1">Registration</h1>
@@ -144,8 +94,8 @@
   <div class="text-justify">
     <h2 class="payment-title fw-semibold fs-5 mb-2">Steps to Make the Payment:</h2>
     <ol class="d-flex flex-column gap-2">
-      <li>Payment Link: <a href="https://ncr.christuniversity.in/e-services-online-payment-portalncr" target="_blank"
-          class="text-decoration-none text-ieee"><strong>https://ncr.christuniversity.in/e-services-online-payment-portalncr</strong></a>
+      <li>Payment Link: <a href="https://ncr.christuniversity.in/e-services-online-payment-portalncr" target="_blank" rel="noopener noreferrer"
+        class="text-decoration-none text-ieee"><strong>https://ncr.christuniversity.in/e-services-online-payment-portalncr</strong></a>
       </li>
       <li>Navigate to the bottom of the webpage and click on the option <strong class="text-ieee">“Click below link for
           the

@@ -1,82 +1,30 @@
 <?php
-$json = file_get_contents('config/speakers.json');
-$data = json_decode($json, true);
+declare(strict_types=1);
+
+$jsonPath = __DIR__ . '/../config/speakers.json';
+$json = is_file($jsonPath) ? file_get_contents($jsonPath) : false;
+$data = is_string($json) ? json_decode($json, true) : null;
+
+if (!is_array($data) || !isset($data['speakers']) || !is_array($data['speakers'])) {
+  $data = ['speakers' => []];
+}
+
+$projectRoot = dirname(__DIR__);
 ?>
 
-<style>
-/* ===============================
-   KEYNOTE SPEAKERS – IEEE STYLE
-   =============================== */
-
-.speaker-section {
-  margin-bottom: 3rem;
-}
-
-.speaker-card {
-  border-bottom: 1px solid #e5eaf0;
-  padding: 2rem 0;
-}
-
-.speaker-img {
-  width: 160px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 6px;
-  border: 3px solid #f0f4f8;
-}
-
-.speaker-name {
-  font-size: 1.4rem;
-  font-weight: 700;
-  color: #003b5c;
-}
-
-.speaker-designation {
-  font-size: 0.95rem;
-  color: #21487b;
-  margin-bottom: 0.6rem;
-}
-
-.speaker-title {
-  font-weight: 600;
-  margin-bottom: 0.8rem;
-}
-
-/* Clean 3-line clamp */
-.profile-text {
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  line-height: 1.7;
-  color: #374151;
-}
-
-.profile-text.expanded {
-  -webkit-line-clamp: unset;
-  display: block;
-}
-
-.read-more-btn {
-  background: none;
-  border: none;
-  color: #1a73e8;
-  font-weight: 600;
-  padding: 0;
-  margin-top: 8px;
-  cursor: pointer;
-}
-
-.read-more-btn:hover {
-  text-decoration: underline;
-}
-</style>
-
-<div class="container speaker-section">
+<div class="container speaker-section page-keynote-speaker">
 
   <h2 class="mb-5 fw-bold text-ieee">Guest Speaker/ Keynote</h2>
 
   <?php foreach ($data['speakers'] as $speaker): ?>
+
+    <?php
+      $speakerId = isset($speaker['id']) ? (int)$speaker['id'] : 0;
+      $speakerName = (string)($speaker['name'] ?? '');
+      $speakerDesignation = (string)($speaker['designation'] ?? '');
+      $speakerTitle = (string)($speaker['title'] ?? '');
+      $speakerProfile = (string)($speaker['profile'] ?? '');
+    ?>
 
     <div class="row speaker-card align-items-start">
 
@@ -85,15 +33,20 @@ $data = json_decode($json, true);
 
         <?php
         $imagePath = $speaker['image'] ?? '';
-        if (empty($imagePath) || !file_exists($imagePath)) {
+        $imageFsPath = is_string($imagePath) && $imagePath !== ''
+          ? $projectRoot . '/' . ltrim($imagePath, '/')
+          : '';
+        if (empty($imagePath) || $imageFsPath === '' || !file_exists($imageFsPath)) {
             $imagePath = "assets/images/organizing-committee/default.png";
         }
         ?>
 
-        <img src="<?= $imagePath; ?>"
-             alt="<?= htmlspecialchars($speaker['name']); ?>"
+           <img src="<?= htmlspecialchars($imagePath); ?>"
+             alt="<?= htmlspecialchars($speakerName, ENT_QUOTES, 'UTF-8'); ?>"
              class="speaker-img"
-             onerror="this.src='assets/images/default-speaker.png'">
+             width="160"
+             height="200"
+             onerror="this.onerror=null;this.src='assets/images/organizing-committee/default.png'">
 
       </div>
 
@@ -101,24 +54,24 @@ $data = json_decode($json, true);
       <div class="col-md-9">
 
         <div class="speaker-name">
-          <?= htmlspecialchars($speaker['name']); ?>
+          <?= htmlspecialchars($speakerName, ENT_QUOTES, 'UTF-8'); ?>
         </div>
 
         <div class="speaker-designation">
-          <?= htmlspecialchars($speaker['designation']); ?>
+          <?= htmlspecialchars($speakerDesignation, ENT_QUOTES, 'UTF-8'); ?>
         </div>
 
         <div class="speaker-title">
-          Talk: <?= htmlspecialchars($speaker['title']); ?>
+          Talk: <?= htmlspecialchars($speakerTitle, ENT_QUOTES, 'UTF-8'); ?>
         </div>
 
         <div class="profile-text"
-             id="profile-<?= $speaker['id']; ?>">
-          <?= nl2br(htmlspecialchars($speaker['profile'])); ?>
+             id="profile-<?= $speakerId; ?>">
+          <?= nl2br(htmlspecialchars($speakerProfile, ENT_QUOTES, 'UTF-8')); ?>
         </div>
 
         <button class="read-more-btn"
-                onclick="toggleProfile(<?= $speaker['id']; ?>)">
+          onclick="toggleProfile(<?= $speakerId; ?>)">
           Read More
         </button>
 
@@ -129,18 +82,3 @@ $data = json_decode($json, true);
   <?php endforeach; ?>
 
 </div>
-
-<script>
-function toggleProfile(id) {
-  const profile = document.getElementById("profile-" + id);
-  const btn = profile.nextElementSibling;
-
-  profile.classList.toggle("expanded");
-
-  if (profile.classList.contains("expanded")) {
-    btn.innerText = "Read Less";
-  } else {
-    btn.innerText = "Read More";
-  }
-}
-</script>

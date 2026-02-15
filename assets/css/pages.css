@@ -67,3 +67,552 @@
 .text-ieee {
   color: #003b5c;
 }
+
+/* ===============================
+   INSTRUCTIONS FOR AUTHORS
+   =============================== */
+
+.instructions-page {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.instructions-page h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #003b5c;
+  margin-bottom: 0.5rem;
+}
+
+.instructions-page hr {
+  border: none;
+  border-bottom: 2px solid #1a73e8;
+  width: 100%;
+  margin-bottom: 1.2rem;
+}
+
+.instructions-list {
+  padding-left: 1.2rem;
+}
+
+.instructions-list li {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  color: #1f2937;
+}
+
+.instructions-list a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.instructions-list a:hover {
+  text-decoration: underline;
+}
+
+/* ===============================
+   SUBMISSION GUIDELINES
+   =============================== */
+
+.submission-page {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.submission-page h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #003b5c;
+  margin-bottom: 0.5rem;
+}
+
+.submission-page hr {
+  border: none;
+  border-bottom: 2px solid #1a73e8;
+  margin-bottom: 1.5rem;
+}
+
+.submission-page p {
+  line-height: 1.7;
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+
+.submission-page a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.submission-page a:hover {
+  text-decoration: underline;
+}
+
+.submission-section {
+  margin-top: 1.8rem;
+}
+
+.submission-section h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #003b5c;
+  margin-bottom: 0.6rem;
+}
+
+.submission-list {
+  padding-left: 1.2rem;
+}
+
+.submission-list li {
+  margin-bottom: 0.6rem;
+  line-height: 1.6;
+  color: #1f2937;
+}
+
+/* ===============================
+   PUBLICATION
+   =============================== */
+
+.publication-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+.publication-page h1 {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: #003b5c;
+  margin-bottom: 0.4rem;
+}
+
+.publication-page hr {
+  border: none;
+  border-bottom: 2px solid #1a73e8;
+  margin-bottom: 1.6rem;
+}
+
+.publication-page p {
+  line-height: 1.7;
+  font-size: 1rem;
+  color: #1f2937;
+  margin-bottom: 1.2rem;
+}
+
+.publication-note {
+  margin-top: 1.5rem;
+  background: #fff7d6;
+  border-left: 4px solid #facc15;
+  padding: 1rem 1.1rem;
+  font-size: 0.95rem;
+  color: #1f2937;
+}
+
+@media (max-width: 768px) {
+  .publication-page h1 {
+    font-size: 1.6rem;
+  }
+}
+
+/* ===============================
+   REGISTRATION (SCOPED)
+   =============================== */
+
+.page-registration .registration-title,
+.page-registration .payment-title {
+  color: #003b5c;
+}
+
+.page-registration .registration-hr {
+  border-bottom: 2px solid #1a73e8;
+}
+
+.page-registration .table thead th {
+  background-color: #003b5c;
+  color: #fff;
+  vertical-align: middle;
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.page-registration .table thead .sub-head th {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.page-registration .table-hover tbody tr:hover {
+  background-color: #97b2cc !important;
+}
+
+.page-registration .table tbody tr:nth-child(even) {
+  background-color: #f9fafb;
+}
+
+.page-registration .table tbody td:first-child {
+  text-align: start;
+  font-weight: 500;
+  color: #003b5c;
+}
+
+.page-registration .note-box {
+  background: #fff7d6;
+  border-left: 4px solid #facc15;
+}
+
+/* ===============================
+   IMPORTANT DATES (SCOPED)
+   =============================== */
+
+.page-important-dates {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.page-important-dates .timeline-line {
+  position: absolute;
+  left: 10px;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background-color: #dbeafe;
+}
+
+.page-important-dates .timeline-dot {
+  width: 14px;
+  height: 14px;
+  background-color: #1a73e8;
+  border-radius: 50%;
+  margin-top: 4px;
+  flex-shrink: 0;
+}
+
+.page-important-dates .timeline-dot.timeline-blink {
+  background-color: #dc3545;
+  animation: blink 1.2s infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page-important-dates .timeline-dot.timeline-blink {
+    animation: none;
+  }
+}
+
+/* ===============================
+   CALL FOR PAPERS
+   =============================== */
+
+.cfp-section {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.cfp-header {
+  border-left: 5px solid #1a73e8;
+  padding-left: 15px;
+  margin-bottom: 1.8rem;
+}
+
+.cfp-header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #003b5c;
+  margin-bottom: 0.3rem;
+}
+
+.cfp-header p {
+  color: #4b5563;
+  margin: 0;
+}
+
+.cfp-section p {
+  text-align: justify;
+  line-height: 1.8;
+  color: #1f2937;
+}
+
+.track-card {
+  border: 1px solid #e6eef7;
+  border-left: 4px solid #1a73e8;
+  border-radius: 6px;
+  padding: 1.3rem;
+  height: 100%;
+  background-color: #ffffff;
+  transition: all 0.2s ease;
+}
+
+.track-card:hover {
+  border-left-color: #003b5c;
+  background-color: #f9fbff;
+}
+
+.track-card h5 {
+  font-weight: 600;
+  color: #003b5c;
+  margin-bottom: 0.8rem;
+}
+
+.track-card ul {
+  padding-left: 1.2rem;
+  margin: 0;
+}
+
+.track-card ul li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+  color: #374151;
+}
+
+/* ===============================
+   VENUE (SCOPED)
+   =============================== */
+
+.page-venue .venue-img-custom {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.page-venue .venue-img img {
+  object-fit: cover;
+}
+
+@media (max-width: 575.98px) {
+  .page-venue .venue-img img {
+    max-height: 220px;
+  }
+}
+
+/* ===============================
+   TRANSPORTATION (SCOPED)
+   =============================== */
+
+.page-transportation .main-heading {
+  font-size: 42px;
+  font-weight: 300;
+  color: #1f2d3d;
+}
+
+.page-transportation .section-title {
+  font-weight: 600;
+  color: #1f2d3d;
+}
+
+/* ===============================
+   ORGANIZING COMMITTEE (SCOPED)
+   =============================== */
+
+.page-organizing-committee .committee-section {
+  margin-bottom: 3rem;
+}
+
+.page-organizing-committee .committee-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #003b5c;
+  margin-bottom: 1.5rem;
+  border-left: 5px solid #1a73e8;
+  background-color: #9bbbff44;
+  padding: 5px 6px;
+}
+
+@media (max-width: 576px) {
+  .page-organizing-committee .committee-title {
+    font-size: 1.2rem;
+    border-left: 3px solid #1a73e8;
+    padding: 4px 6px;
+    margin-bottom: 1rem;
+  }
+}
+
+.page-organizing-committee .subcommittee-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #111827;
+  margin: 2rem 0 1rem;
+  border-bottom: 1px solid #e5eaf0;
+  padding-bottom: 6px;
+}
+
+.page-organizing-committee .member-card {
+  border: 1px solid #e5eaf0;
+  border-radius: 8px;
+  padding: 1.5rem 1rem;
+  text-align: center;
+  height: 100%;
+  transition: 0.25s ease;
+  background: linear-gradient(
+    135deg,
+    #eef6fc 0%,
+    #ffffff 50%,
+    #f0f7ff 100%
+  );
+}
+
+.page-organizing-committee .member-card:hover {
+  border-color: #cddff0;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(26, 115, 232, 0.08);
+}
+
+.page-organizing-committee .member-img {
+  width: 90px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 5%;
+  margin-bottom: 1rem;
+  border: 3px solid #f0f4f8;
+}
+
+.page-organizing-committee .member-name {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #111827;
+}
+
+.page-organizing-committee .member-designation {
+  font-size: 0.85rem;
+  color: #4462a1;
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+}
+
+.page-organizing-committee .member-affiliation {
+  font-size: 0.8rem;
+  color: #6b7280;
+  line-height: 1.4;
+}
+
+/* ===============================
+   KEYNOTE SPEAKER (SCOPED)
+   =============================== */
+
+.page-keynote-speaker .speaker-section {
+  margin-bottom: 3rem;
+}
+
+.page-keynote-speaker .speaker-card {
+  border-bottom: 1px solid #e5eaf0;
+  padding: 2rem 0;
+}
+
+.page-keynote-speaker .speaker-img {
+  width: 160px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 3px solid #f0f4f8;
+}
+
+.page-keynote-speaker .speaker-name {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #003b5c;
+}
+
+.page-keynote-speaker .speaker-designation {
+  font-size: 0.95rem;
+  color: #21487b;
+  margin-bottom: 0.6rem;
+}
+
+.page-keynote-speaker .speaker-title {
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}
+
+.page-keynote-speaker .profile-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 1.7;
+  color: #374151;
+}
+
+.page-keynote-speaker .profile-text.expanded {
+  -webkit-line-clamp: unset;
+  display: block;
+}
+
+.page-keynote-speaker .read-more-btn {
+  background: none;
+  border: none;
+  color: #1a73e8;
+  font-weight: 600;
+  padding: 0;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.page-keynote-speaker .read-more-btn:hover {
+  text-decoration: underline;
+}
+
+/* ===============================
+   ADVISORY + TECHNICAL LISTS
+   =============================== */
+
+.page-advisory,
+.page-technical-committee {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.page-advisory .advisory-title,
+.page-technical-committee .committee-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #003b5c;
+  border-left: 5px solid #1a73e8;
+  padding-left: 12px;
+  margin-bottom: 2rem;
+}
+
+.page-advisory .advisory-list,
+.page-technical-committee .committee-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.page-advisory .advisory-list li,
+.page-technical-committee .committee-list li {
+  padding: 1rem 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.page-advisory .advisory-list li:last-child,
+.page-technical-committee .committee-list li:last-child {
+  border-bottom: none;
+}
+
+.page-advisory .member-name,
+.page-technical-committee .member-name {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #111827;
+}
+
+.page-advisory .member-affiliation,
+.page-technical-committee .member-affiliation {
+  font-size: 0.9rem;
+  color: #4b5563;
+  margin-top: 2px;
+}
+
+/* ===============================
+   CONTACT (SCOPED)
+   =============================== */
+
+.page-contact .contact-title {
+  color: #003b5c;
+}
+
+.page-contact .contact-box {
+  max-width: 900px;
+}
+
+.page-contact .form-control,
+.page-contact .form-control:focus {
+  font-size: 16px;
+}
